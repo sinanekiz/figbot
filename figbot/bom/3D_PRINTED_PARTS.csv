@@ -1,0 +1,11 @@
+part_number,description,quantity,material_candidate,process,status,notes
+ARM-002,J1 and shoulder housing,1,PETG or PA-CF,FDM,UNVERIFIED,"Load-bearing; print orientation and physical proof test required"
+ARM-004,Elbow housing,1,PETG or PA-CF,FDM,UNVERIFIED,"Load-bearing; print orientation and physical proof test required"
+ARM-006,Wrist housing,1,PETG or PA-CF,FDM,UNVERIFIED,"Tool attachment requires physical pull test"
+GRP-001,Gripper body,1,PETG,FDM,UNVERIFIED,"Servo fit and compliance interface test required"
+GRP-004,GRP-C three-finger carrier and geometry,1,PETG or PA12,FDM or resin,UNVERIFIED,"Mounted carrier; add compliant contact surfaces and physically test"
+GRP-005,GRP-A very-soft finger tooling mold,1,PETG or resin,FDM or resin,UNVERIFIED,"Seal surface and mold release trial required"
+GRP-006,GRP-B medium-soft finger tooling mold,1,PETG or resin,FDM or resin,UNVERIFIED,"Seal surface and mold release trial required"
+GRP-007,GRP-C compliant contact tooling mold,1,PETG or resin,FDM or resin,UNVERIFIED,"Seal surface and mold release trial required"
+FUN-001,Funnel shell prototype,1,PETG,FDM,UNVERIFIED,"Large print may be replaced by formed sheet after fit validation"
+FUN-003,Chute prototype,1,TPU candidate,FDM,UNVERIFIED,"Flexibility and abrasion not tested"

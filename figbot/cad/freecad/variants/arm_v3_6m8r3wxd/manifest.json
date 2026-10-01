@@ -1,0 +1,772 @@
+{
+  "mode": "arm_v3",
+  "parameters": {
+    "UpperLength": 310.0,
+    "ForeLength": 220.0,
+    "BasketSlope": 15.0,
+    "BasketRearHeight": 145.0,
+    "ArmBaseX": 380.0,
+    "ArmBaseY": 415.0,
+    "ArmBaseZ": 280.0
+  },
+  "status": "AERO V3 experimental variant; RECHECK GEOMETRY BEFORE PRINT",
+  "parts": [
+    {
+      "id": "Component000",
+      "name": "yaw base",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_000.brep",
+      "volume": 121690.24771870204
+    },
+    {
+      "id": "Component001",
+      "name": "yaw thrust washer",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_001.brep",
+      "volume": 1889.982140399628
+    },
+    {
+      "id": "Component002",
+      "name": "yaw deck",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_002.brep",
+      "volume": 54861.330140165395
+    },
+    {
+      "id": "Component003",
+      "name": "J1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "part_003.brep",
+      "volume": 36476.547634325856
+    },
+    {
+      "id": "Component004",
+      "name": "J1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_004.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component005",
+      "name": "J1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "part_005.brep",
+      "volume": 778.957898457589
+    },
+    {
+      "id": "Component006",
+      "name": "J1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_006.brep",
+      "volume": 712.5164636502614
+    },
+    {
+      "id": "Component007",
+      "name": "J1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_007.brep",
+      "volume": 712.5164636502612
+    },
+    {
+      "id": "Component008",
+      "name": "shoulder yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_008.brep",
+      "volume": 57740.7427248144
+    },
+    {
+      "id": "Component009",
+      "name": "J2 -1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "part_009.brep",
+      "volume": 36476.54763432585
+    },
+    {
+      "id": "Component010",
+      "name": "J2 -1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_010.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component011",
+      "name": "J2 -1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "part_011.brep",
+      "volume": 778.9578984575878
+    },
+    {
+      "id": "Component012",
+      "name": "J2 -1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_012.brep",
+      "volume": 712.5164636502614
+    },
+    {
+      "id": "Component013",
+      "name": "J2 -1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_013.brep",
+      "volume": 712.5164636502612
+    },
+    {
+      "id": "Component014",
+      "name": "J2 1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "part_014.brep",
+      "volume": 36476.547634325856
+    },
+    {
+      "id": "Component015",
+      "name": "J2 1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_015.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component016",
+      "name": "J2 1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "part_016.brep",
+      "volume": 778.9578984575876
+    },
+    {
+      "id": "Component017",
+      "name": "J2 1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_017.brep",
+      "volume": 712.5164636502616
+    },
+    {
+      "id": "Component018",
+      "name": "J2 1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_018.brep",
+      "volume": 712.5164636502614
+    },
+    {
+      "id": "Component019",
+      "name": "upper hub",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_019.brep",
+      "volume": 40976.13173326366
+    },
+    {
+      "id": "Component020",
+      "name": "upper hollow tube",
+      "group": "tube",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_020.brep",
+      "volume": 27004.148246294208
+    },
+    {
+      "id": "Component021",
+      "name": "elbow yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_021.brep",
+      "volume": 36005.84825913784
+    },
+    {
+      "id": "Component022",
+      "name": "J3 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "part_022.brep",
+      "volume": 36476.54763432585
+    },
+    {
+      "id": "Component023",
+      "name": "J3 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_023.brep",
+      "volume": 123.1504320207182
+    },
+    {
+      "id": "Component024",
+      "name": "J3 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "part_024.brep",
+      "volume": 778.9578984575917
+    },
+    {
+      "id": "Component025",
+      "name": "J3 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_025.brep",
+      "volume": 712.5164636502641
+    },
+    {
+      "id": "Component026",
+      "name": "J3 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_026.brep",
+      "volume": 712.5164636502567
+    },
+    {
+      "id": "Component027",
+      "name": "fore hub",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_027.brep",
+      "volume": 42794.29243919472
+    },
+    {
+      "id": "Component028",
+      "name": "J3 sleeve",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_028.brep",
+      "volume": 82.51393104653552
+    },
+    {
+      "id": "Component029",
+      "name": "J3 thrust washer 0",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_029.brep",
+      "volume": 37.09592605358857
+    },
+    {
+      "id": "Component030",
+      "name": "J3 thrust washer 1",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_030.brep",
+      "volume": 37.09592605358857
+    },
+    {
+      "id": "Component031",
+      "name": "J3 M4x12 axle bolt",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_031.brep",
+      "volume": 258.5530753904407
+    },
+    {
+      "id": "Component032",
+      "name": "J3 M4 captive nut",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_032.brep",
+      "volume": 91.36107868445909
+    },
+    {
+      "id": "Component033",
+      "name": "fore hollow tube",
+      "group": "tube",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_033.brep",
+      "volume": 17680.14824629456
+    },
+    {
+      "id": "Component034",
+      "name": "wrist yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_034.brep",
+      "volume": 29942.419425728876
+    },
+    {
+      "id": "Component035",
+      "name": "W1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "part_035.brep",
+      "volume": 8725.096029103712
+    },
+    {
+      "id": "Component036",
+      "name": "W1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_036.brep",
+      "volume": 62.831853071796004
+    },
+    {
+      "id": "Component037",
+      "name": "W1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "part_037.brep",
+      "volume": 503.75438200312266
+    },
+    {
+      "id": "Component038",
+      "name": "W1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_038.brep",
+      "volume": 555.0164636502614
+    },
+    {
+      "id": "Component039",
+      "name": "W1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_039.brep",
+      "volume": 555.0164636502617
+    },
+    {
+      "id": "Component040",
+      "name": "wrist palm fixed jaw",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_040.brep",
+      "volume": 38159.464197823945
+    },
+    {
+      "id": "Component041",
+      "name": "wrist drive plate",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_041.brep",
+      "volume": 3847.9483458229147
+    },
+    {
+      "id": "Component042",
+      "name": "wrist M3x30 joining bolt -14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_042.brep",
+      "volume": 285.9477633297424
+    },
+    {
+      "id": "Component043",
+      "name": "wrist M3 washer (-14, -8.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_043.brep",
+      "volume": 15.221016406642468
+    },
+    {
+      "id": "Component044",
+      "name": "wrist M3 washer (-14, 12.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_044.brep",
+      "volume": 15.221016406642468
+    },
+    {
+      "id": "Component045",
+      "name": "wrist M3 locking nut -14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_045.brep",
+      "volume": 72.59101925953283
+    },
+    {
+      "id": "Component046",
+      "name": "wrist M3x30 joining bolt 14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_046.brep",
+      "volume": 285.9477633297424
+    },
+    {
+      "id": "Component047",
+      "name": "wrist M3 washer (14, -8.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_047.brep",
+      "volume": 15.221016406642468
+    },
+    {
+      "id": "Component048",
+      "name": "wrist M3 washer (14, 12.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_048.brep",
+      "volume": 15.221016406642468
+    },
+    {
+      "id": "Component049",
+      "name": "wrist M3 locking nut 14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_049.brep",
+      "volume": 72.59101925953283
+    },
+    {
+      "id": "Component050",
+      "name": "W1 sleeve",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_050.brep",
+      "volume": 82.51393104653702
+    },
+    {
+      "id": "Component051",
+      "name": "W1 thrust washer 0",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_051.brep",
+      "volume": 37.09592605358828
+    },
+    {
+      "id": "Component052",
+      "name": "W1 thrust washer 1",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_052.brep",
+      "volume": 37.09592605358828
+    },
+    {
+      "id": "Component053",
+      "name": "W1 M4x12 axle bolt",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_053.brep",
+      "volume": 258.5530753904395
+    },
+    {
+      "id": "Component054",
+      "name": "W1 M4 captive nut",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_054.brep",
+      "volume": 91.3610786844576
+    },
+    {
+      "id": "Component055",
+      "name": "G1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "part_055.brep",
+      "volume": 8725.096029103688
+    },
+    {
+      "id": "Component056",
+      "name": "G1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "part_056.brep",
+      "volume": 62.831853071795706
+    },
+    {
+      "id": "Component057",
+      "name": "G1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "part_057.brep",
+      "volume": 503.75438200312146
+    },
+    {
+      "id": "Component058",
+      "name": "G1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_058.brep",
+      "volume": 555.0164636502594
+    },
+    {
+      "id": "Component059",
+      "name": "G1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "part_059.brep",
+      "volume": 555.0164636502599
+    },
+    {
+      "id": "Component060",
+      "name": "moving jaw",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "part_060.brep",
+      "volume": 4998.253622588675
+    },
+    {
+      "id": "Component061",
+      "name": "fixed soft pad",
+      "group": "pad",
+      "color": [
+        0.18,
+        0.48,
+        0.3
+      ],
+      "brep": "part_061.brep",
+      "volume": 432.0
+    },
+    {
+      "id": "Component062",
+      "name": "moving soft pad",
+      "group": "pad",
+      "color": [
+        0.18,
+        0.48,
+        0.3
+      ],
+      "brep": "part_062.brep",
+      "volume": 432.0000000000017
+    }
+  ],
+  "scope": "Geometry regeneration only; no automatic collision, strength, kinematics or print approval. Fixed pickup joint pose. Imported/custom generated features, not sketch history."
+}

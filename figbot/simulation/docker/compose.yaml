@@ -1,0 +1,10 @@
+services:
+  figbot:
+    build:
+      context: ../..
+      dockerfile: simulation/docker/Dockerfile
+    image: figbot/ros2-gazebo:jazzy-harmonic
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../..:/workspace/figbot:ro

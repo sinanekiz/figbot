@@ -1,0 +1,41 @@
+{
+  "revision": "G",
+  "status": "DIGITAL PROTOTYPE / PHYSICAL VALIDATION REQUIRED",
+  "actuation": {
+    "J1": "one MG996R PWM servo candidate",
+    "J2": "two mechanically coupled MG996R PWM servo candidates plus adjustable counterbalance",
+    "J3": "one MG996R PWM servo candidate",
+    "G1": "MG90S micro servo candidate",
+    "wrist_orientation": "passive parallelogram; no J4 motor"
+  },
+  "geometry_mm": {
+    "upper_link": 300.0,
+    "fore_link": 220.0,
+    "tool_offset": 85.0,
+    "nominal_reach": 605.0,
+    "shoulder_height_above_mount": 145.0,
+    "main_link_section": [
+      20.0,
+      20.0,
+      1.5
+    ]
+  },
+  "servo_interface": {
+    "body_envelope": [
+      40.7,
+      19.7,
+      42.9
+    ],
+    "spline": "Futaba-compatible; exact tooth count and fit require delivered-sample inspection",
+    "spline_major_diameter_mm": 6.0,
+    "mounting_tabs_horn_and_brackets": "UNVERIFIED - MEASURE DELIVERED SAMPLE BEFORE FINAL PRINT",
+    "dual_J2_alignment": "PHYSICAL VALIDATION REQUIRED - match horn zero, linkage stiffness, current and temperature"
+  },
+  "throughput_contract": {
+    "vehicle_target_per_min": 30,
+    "arms": 2,
+    "target_per_arm_per_min": 15,
+    "maximum_average_cycle_s_per_arm": 4.0,
+    "validation": "UNVERIFIED - TIMED PHYSICAL TEST REQUIRED"
+  }
+}

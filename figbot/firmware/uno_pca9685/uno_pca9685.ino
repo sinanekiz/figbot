@@ -1,0 +1,201 @@
+#include <Wire.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#ifndef FIGBOT_SERIAL_BAUD
+#define FIGBOT_SERIAL_BAUD 115200
+#endif
+
+// Bench controller. Mirrored shoulders share ONE trajectory; actual motion not measured.
+// PCA registers follow NXP PCA9685; 25 MHz oscillator is nominal, not calibrated.
+const unsigned char ADDRESS = 0x40, CHANNELS = 12;
+const unsigned long WATCHDOG_MS = 1500;
+const int MAX_COMMAND_SPEED = 360;
+bool available = false, enabled[CHANNELS] = {}, active[CHANNELS] = {};
+float currentUs[CHANNELS];
+int targetUs[CHANNELS], rates[CHANNELS], spans[CHANNELS];
+unsigned long lastContact = 0, lastFrame = 0, frameStart = 0;
+char frame[48];
+unsigned char used = 0;
+bool badFrame = false;
+bool shoulder(unsigned char c) { return c == 1 || c == 2 || c == 7 || c == 8; }
+unsigned char leader(unsigned char c) { return c == 2 || c == 8 ? c - 1 : c; }
+
+bool regWrite(unsigned char reg, unsigned char value) {
+  Wire.beginTransmission(ADDRESS); Wire.write(reg); Wire.write(value);
+  return Wire.endTransmission() == 0;
+}
+bool pwm(unsigned char ch, int ticks) {
+  Wire.beginTransmission(ADDRESS); Wire.write((unsigned char)(0x06 + 4 * ch));
+  Wire.write((unsigned char)0); Wire.write((unsigned char)0);
+  Wire.write((unsigned char)(ticks & 255)); Wire.write((unsigned char)(ticks >> 8));
+  return Wire.endTransmission() == 0;
+}
+bool pairPWM(unsigned char first, int a, int b) {
+  // Adjacent channel registers in ONE transaction. MODE2 OCH=0 applies on STOP.
+  Wire.beginTransmission(ADDRESS); Wire.write((unsigned char)(0x06 + 4 * first));
+  for (unsigned char i = 0; i < 2; ++i) {
+    int value = i == 0 ? a : b;
+    Wire.write((unsigned char)0); Wire.write((unsigned char)0);
+    Wire.write((unsigned char)(value & 255)); Wire.write((unsigned char)(value >> 8));
+  }
+  return Wire.endTransmission() == 0;
+}
+bool allOff() {
+  // FULL_OFF each channel, including unused outputs 12..15.
+  bool ok = true;
+  for (unsigned char c = 0; c < 16; ++c) {
+    if (c == 1 || c == 7) {
+      if (!pairPWM(c, 4096, 4096)) ok = false;
+      ++c;
+    } else if (!pwm(c, 4096)) ok = false;
+  }
+  for (unsigned char c = 0; c < CHANNELS; ++c) enabled[c] = active[c] = false;
+  return ok;
+}
+void fault() {
+  available = false;
+  allOff(); // Best effort: broken I2C cannot guarantee output shutdown.
+  Serial.println(F("ERR I2C: PWM shutdown unconfirmed; disconnect servo power"));
+}
+void status() {
+  if (!available) { Serial.println(F("ERR PCA9685_NOT_READY")); return; }
+  unsigned int mask = 0, moving = 0;
+  for (unsigned char c = 0; c < CHANNELS; ++c) {
+    if (enabled[c]) mask |= 1U << c;
+    if (active[c]) moving |= 1U << c;
+  }
+  Serial.print(F("STATUS5 ")); Serial.print(mask); Serial.print(','); Serial.println(moving);
+}
+bool integers(const char *s, long *values, unsigned char count) {
+  for (unsigned char i = 0; i < count; ++i) {
+    if (*s < '0' || *s > '9') return false;
+    char *end;
+    values[i] = strtol(s, &end, 10);
+    if (values[i] < 0 || values[i] > 10000) return false;
+    if (i + 1 == count) return *end == '\0';
+    if (*end != ',') return false;
+    s = end + 1;
+  }
+  return false;
+}
+void handleFrame() {
+  frame[used] = '\0';
+  if (badFrame || !used) { Serial.println(F("ERR FRAME")); return; }
+  if (!strcmp(frame, "H")) { lastContact = millis(); status(); return; }
+  if (!available) { Serial.println(F("ERR PCA9685_NOT_READY")); return; }
+  long v[5];
+  if ((frame[0] == 'E' || frame[0] == 'D') && integers(frame + 1, v, 1) && v[0] < CHANNELS) {
+    unsigned char c = v[0];
+    if (shoulder(c)) {
+      c = leader(c);
+      if (!pairPWM(c, 4096, 4096)) { fault(); return; }
+      enabled[c] = enabled[c+1] = frame[0] == 'E';
+      active[c] = active[c+1] = false;
+    } else {
+      if (!pwm(c, 4096)) { fault(); return; }
+      enabled[c] = frame[0] == 'E'; active[c] = false;
+    }
+    lastContact = millis(); status(); return;
+  }
+  // Sleader,angle,speed,min,max. Symmetric calibrated range; common centre1500us.
+  if (frame[0] == 'S') {
+    if (!integers(frame + 1, v, 5) || !(v[0] == 1 || v[0] == 7) ||
+        v[1] > 180 || v[2] < 10 || v[2] > MAX_COMMAND_SPEED || v[3] < 500 || v[3] > 1000 ||
+        v[3] % 100 != 0 || v[4] != 3000-v[3]) { Serial.println(F("ERR PAIR_FRAME")); return; }
+    unsigned char c = v[0];
+    if (!enabled[c] || !enabled[c+1]) { Serial.println(F("ERR CHANNEL_DISABLED")); return; }
+    if ((!active[c] || !active[c+1]) && v[1] != 90) {
+      Serial.println(F("ERR PAIR_CENTRE_FIRST")); return;
+    }
+    if (active[c] && spans[c] != v[4]-v[3]) {
+      Serial.println(F("ERR PAIR_RANGE_REARM")); return;
+    }
+    int next = v[3] + (v[1] * (v[4]-v[3]) + 90) / 180;
+    if (!active[c]) currentUs[c] = 1500;
+    targetUs[c] = next; rates[c] = v[2]; spans[c] = v[4]-v[3];
+    currentUs[c+1] = 3000 - currentUs[c]; targetUs[c+1] = 3000 - next;
+    active[c] = active[c+1] = true;
+    lastContact = millis();
+    Serial.print(F("PAIR ")); Serial.println(frame + 1); return;
+  }
+  // Pchannel,angle,command_degrees_per_second,pulse_min,pulse_max
+  if (frame[0] != 'P' || !integers(frame + 1, v, 5) || v[0] >= CHANNELS ||
+      v[1] > 180 || v[2] < 10 || v[2] > MAX_COMMAND_SPEED ||
+      !((v[3] == 1000 && v[4] == 2000) || (v[3] == 500 && v[4] == 2500))) {
+    Serial.println(F("ERR FRAME")); return;
+  }
+  unsigned char c = v[0];
+  if (shoulder(c)) { Serial.println(F("ERR USE_PAIRED_SHOULDER")); return; }
+  if (!enabled[c]) { Serial.println(F("ERR CHANNEL_DISABLED")); return; }
+  int next = v[3] + (v[1] * (v[4] - v[3]) + 90) / 180;
+  // A disabled servo's actual shaft position is unknown. First command goes
+  // directly to its target; speed limiting cannot cover that initial movement.
+  if (!active[c]) currentUs[c] = next;
+  targetUs[c] = next; rates[c] = v[2]; spans[c] = v[4] - v[3]; active[c] = true;
+  lastContact = millis();
+  Serial.print(F("ACK ")); Serial.println(frame + 1);
+}
+void setup() {
+  Serial.begin(FIGBOT_SERIAL_BAUD);
+  Wire.begin(); Wire.setWireTimeout(25000, true);
+  // Sleep BEFORE configuring outputs; clear every channel before oscillator wake.
+  bool ok = regWrite(0x00, 0x30); // SLEEP + auto increment
+  if (ok) ok = allOff();
+  if (ok) ok = regWrite(0x01, 0x04); // totem pole
+  if (ok) ok = regWrite(0xFE, 121); // nominal ~50.03 Hz
+  if (ok) ok = regWrite(0x00, 0x20);
+  delay(5);
+  if (ok) ok = regWrite(0x00, 0xA0);
+  available = ok;
+  lastContact = lastFrame = millis();
+  Serial.println(F("FIGBOT_PCA9685_V5")); status();
+}
+void loop() {
+  unsigned long now = millis();
+  if ((used || badFrame) && now - frameStart > 250) { used = 0; badFrame = false; }
+  while (Serial.available()) {
+    char c = Serial.read();
+    // Immediate stop bypasses partial/overflowed frames.
+    if (c == 'X') {
+      used = 0; badFrame = false;
+      if (!allOff()) fault();
+      Serial.println(F("OFF ALL")); continue;
+    }
+    if (c == '\r') continue;
+    if (c == '\n') {
+      if (used || badFrame) handleFrame();
+      used = 0; badFrame = false; continue;
+    }
+    if (!used && !badFrame) frameStart = now;
+    if (used < sizeof(frame) - 1) frame[used++] = c; else badFrame = true;
+  }
+  now = millis();
+  if (available && now - lastContact > WATCHDOG_MS) {
+    bool any = false;
+    for (unsigned char c = 0; c < CHANNELS; ++c) any |= enabled[c];
+    if (any) {
+      if (!allOff()) fault();
+      Serial.println(F("OFF WATCHDOG"));
+    }
+  }
+  if (available && now - lastFrame >= 20) {
+    unsigned long elapsed = now - lastFrame;
+    if (elapsed > 50) elapsed = 50;
+    lastFrame = now;
+    for (unsigned char c = 0; c < CHANNELS; ++c) if (active[c]) {
+      if (c == 2 || c == 8) continue; // follower never has an independent ramp
+      float step = rates[c] * (float)elapsed * spans[c] / 180000.0f;
+      float diff = targetUs[c] - currentUs[c];
+      if (fabs(diff) <= step) currentUs[c] = targetUs[c];
+      else currentUs[c] += diff > 0 ? step : -step;
+      // ticks = us * 25MHz / (122 * 1e6), oscillator unverified.
+      int ticks = (int)(currentUs[c] * 25.0f / 122.0f + 0.5f);
+      if (c == 1 || c == 7) {
+        currentUs[c+1] = 3000 - currentUs[c];
+        int opposite = (int)(currentUs[c+1] * 25.0f / 122.0f + 0.5f);
+        if (!pairPWM(c, ticks, opposite)) { fault(); break; }
+      } else if (!pwm(c, ticks)) { fault(); break; }
+    }
+  }
+}

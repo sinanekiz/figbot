@@ -1,0 +1,7 @@
+truth,prediction,confidence
+dry_fig_collect,dry_fig_collect,0.91
+green_fig_ignore,green_fig_ignore,0.88
+stone_avoid,stone_avoid,0.93
+leaf_ignore,leaf_ignore,0.86
+branch_avoid,branch_avoid,0.89
+

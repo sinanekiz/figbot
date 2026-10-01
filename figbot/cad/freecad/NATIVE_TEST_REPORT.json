@@ -1,0 +1,48 @@
+{
+  "arm": {
+    "parameter": "UpperLength",
+    "tested_value": 310.0,
+    "changed_volume_parts": [
+      "Group_printed",
+      "Group_aluminium",
+      "Component005",
+      "Component006",
+      "Component007",
+      "Component008"
+    ],
+    "valid_after_reopen": true
+  },
+  "rover": {
+    "parameter": "BasketSlope",
+    "tested_value": 10.0,
+    "changed_volume_parts": [
+      "Group_vehicle",
+      "Component119",
+      "Component120",
+      "Component121",
+      "Component122"
+    ],
+    "valid_after_reopen": true
+  },
+  "arm_v3": {
+    "parameter": "UpperLength",
+    "tested_value": 310.0,
+    "changed_volume_parts": [
+      "Group_tube",
+      "Component020"
+    ],
+    "valid_after_reopen": true
+  },
+  "rover_v3": {
+    "parameter": "BasketSlope",
+    "tested_value": 10.0,
+    "changed_volume_parts": [
+      "Group_vehicle",
+      "Component119",
+      "Component120",
+      "Component121",
+      "Component122"
+    ],
+    "valid_after_reopen": true
+  }
+}

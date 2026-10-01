@@ -1,0 +1,11 @@
+path: ../dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: dry_fig_collect
+  1: green_fig_ignore
+  2: stone_avoid
+  3: leaf_ignore
+  4: branch_avoid
+

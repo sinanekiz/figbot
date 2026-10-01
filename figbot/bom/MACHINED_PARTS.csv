@@ -1,0 +1,11 @@
+part_number,description,quantity,material,starting_stock,process,status,critical_review
+ARM-001,J1 motor and pedestal base plate,1,EN AW-6082-T6,330 x 290 x 12 mm plate blank,CNC mill,RFQ_ONLY,"Finished 320 x 280 x 12; motor interface per drawing; first article required"
+ARM-002,Rotating shoulder pedestal,1,EN AW-6082-T6,Drawing-controlled billet/fabrication envelope,CNC mill/fabricate,RFQ_ONLY,"32 H7 bearing seats and NEMA23 interface require drawing review"
+ARM-003,Upper arm tube,1,EN AW-6060-T66 or 6082-T6 rectangular tube,40 x 30 x 2 x 300 mm,Saw and jig drill,RFQ_ONLY,"Hole locations and stock substitution controlled by drawing"
+ARM-004,J3 elbow clevis,1,EN AW-6082-T6,Drawing-controlled billet,CNC mill,RFQ_ONLY,"22 H7 bearing seats and NEMA17 interface require first article"
+ARM-005,Forearm tube,1,EN AW-6060-T66 or 6082-T6 rectangular tube,40 x 30 x 2 x 220 mm,Saw and jig drill,RFQ_ONLY,"Hole locations and stock substitution controlled by drawing"
+ARM-006,J4 wrist clevis,1,EN AW-6082-T6,Drawing-controlled billet,CNC mill,RFQ_ONLY,"22 H7 bearing seats and NEMA17 interface require first article"
+ARM-007,Proximal bearing shaft,2,C45 or 42CrMo4+QT,15 mm round bar x 112 mm,CNC turn,BLOCKED_FOR_DRAWING_SIGNOFF,"15 g6 journal proposed; final retention stack and roughness require signoff"
+ARM-008,Distal bearing shaft,2,C45 or 42CrMo4+QT,8 mm round bar x 58 mm,CNC turn,BLOCKED_FOR_DRAWING_SIGNOFF,"8 g6 journal proposed; final retention stack and roughness require signoff"
+VIS-001,Camera mast/boom/bracket assembly,1,"30-series aluminium extrusion + EN AW-5754 bracket","30 x 30 extrusion: 760 and 360 mm; bracket 70 x 58 x 4",Saw extrusion and cut/mill bracket,RFQ_ONLY,"Camera Module 3 hole pattern controlled; pose calibrated physically"
+ELE-001,Electronics mounting tray,1,EN AW-5754 H22 sheet,525 x 365 x 3 mm blank,Laser/waterjet then drill,BLOCKED_FOR_INCOMING_COMPONENTS,"Finished 520 x 360 x 3; device holes await delivered module measurements"

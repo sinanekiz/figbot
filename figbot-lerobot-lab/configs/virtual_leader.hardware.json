@@ -1,0 +1,7 @@
+{
+  "active_motor_ids": [1, 2, 3, 4, 5],
+  "closed_home_valid": false,
+  "replacement": {"source_id": 6, "destination_id": 4, "status": "PENDING_PHYSICAL_ID_VERIFICATION"},
+  "task": "APPROACH_FIG_ONLY",
+  "note": "User moved the gripper motor to wrist flex. Gripper motor absent. Previous wrist closed-home encoder reference invalidated."
+}

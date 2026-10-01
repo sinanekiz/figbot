@@ -1,0 +1,62 @@
+{
+  "model:lerobot/smolvla_base": {
+    "revision": "d9f33c94a60fb382c90dea2164c96845bd955e28",
+    "url": "https://huggingface.co/lerobot/smolvla_base",
+    "files_sha256": {
+      "config.json": "650584b56c104720f7a3c91d1ec6bec9e8de8ac11e60c92ba2fa82d93eda147d",
+      "model.safetensors": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "policy_postprocessor.json": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b",
+      "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "490ab239d96e263687c0b2e386a0afbc235a2eceb9857c36ed32f2f162a3e7c8",
+      "policy_preprocessor.json": "7683d648280a72f0d51e869fb8dd1596beed90b7f84849330cf1bc26634a4bd6",
+      "policy_preprocessor_step_5_normalizer_processor.safetensors": "490ab239d96e263687c0b2e386a0afbc235a2eceb9857c36ed32f2f162a3e7c8",
+      "README.md": "a484071b8d7d0591452f795813fb54af9199fc1c48ef1ee995358d5ba07ee070"
+    }
+  },
+  "model:HuggingFaceTB/SmolVLM2-500M-Video-Instruct": {
+    "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+    "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+    "files_sha256": {
+      "added_tokens.json": "74135b8664b56088c0006f1c8e848d79a8eba003411f72ebf1dc2ee96227be3a",
+      "chat_template.json": "b585e3598909a5687f9f9d738d35223724dedef256b9b274e1cbfb32b13c74bf",
+      "config.json": "ea6bc1237e96247f6258de3e202e2e62b93d6f386dc47e7b36b5588bf3a15e17",
+      "generation_config.json": "34835060c9f0f74d1acb456cc72ca32746d3843d9eb5f578f9cbffac1d2eb840",
+      "merges.txt": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+      "preprocessor_config.json": "149e315d9410368e5491455bb06e0f763426e9e56cca731c13b24404a29b6374",
+      "processor_config.json": "f3ad45028447b3562b4752be0d5916d6806c1ef589091a469608dcf0faa1737c",
+      "README.md": "afc4bf5f519438b221a84292979a9eac3de4b9726e5baaa82033c55f59f9f7a5",
+      "special_tokens_map.json": "2dfea2a426162316ff1567c82bc6d36d9690cd9f90455f075c77daca78b45c60",
+      "tokenizer.json": "5ece781dc8d2b2f3e2f289ca0ae50b17cfc27dd27bfe7971bb8241e0b964331a",
+      "tokenizer_config.json": "dd9ce2ab89a3dd881bd9378f1a79b943a064b9275a7e1706d5b7b47b68977913",
+      "vocab.json": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+    }
+  },
+  "model:Harrysunshine/so101-smolvla-9task": {
+    "revision": "e58d308c96639a44172bc1008a8ae174caca3e3c",
+    "url": "https://huggingface.co/Harrysunshine/so101-smolvla-9task",
+    "files_sha256": {
+      "config.json": "274e038568d1a41b521cfcd7fbe2a442bf144c7ed921d27fc6afe7fdb5250e9f",
+      "model.safetensors": "835beab3d8abdfd352ec527f3f1114c4211b741a8ff647be2b54d39502389970",
+      "policy_postprocessor.json": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b",
+      "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "01dfe0fc3febfa84d4234df378ef2fa98cc8373e9d1cd78c76fd378486a23025",
+      "policy_preprocessor.json": "922072d52b24a67f894ef692eb71f9f4b8c3c57cabbf3b1c71725b310d5bc335",
+      "policy_preprocessor_step_5_normalizer_processor.safetensors": "01dfe0fc3febfa84d4234df378ef2fa98cc8373e9d1cd78c76fd378486a23025",
+      "README.md": "33759a68d5b162011be7241a23650df159dfbdfca28a7509c72713dc9c6317ab",
+      "train_config.json": "df7eb01dcb49a9f78beb20d041d580f0878e82a6e93aaaf483bdab72a5b3e979"
+    }
+  },
+  "dataset:lerobot/svla_so101_pickplace": {
+    "revision": "f641879e22172be7e8161d5e6c1503c2d2feb657",
+    "url": "https://huggingface.co/datasets/lerobot/svla_so101_pickplace",
+    "files_sha256": {
+      ".gitattributes": "e7a120ab07b1bc5b486be249e9fc6c83d59448d0093e1dfebe95d1566d9cafc0",
+      "README.md": "74a5ac3cf6de11b315eb4d01b1ce0e6250782fa809183f76b56aaa3d26a63d76",
+      "meta/info.json": "254909942a6cbfb4692a239e4d0aa5c68ec8eb16f81b6593985ea7f2bb2823e3",
+      "meta/stats.json": "4ae86bed785e0f98914812e87736e216139a22b43cf2b990e68384d85168c3c8",
+      "meta/tasks.parquet": "1040cdef3328ec4376587152647df8e725e80a04210c426f891719e691c88533",
+      "data/chunk-000/file-000.parquet": "579ad57e2454359fa9f2c0e83525991bd2e0305b7b2914d0b1181da3c6ad9949",
+      "meta/episodes/chunk-000/file-000.parquet": "191998bffd2680c477a4000270cf943bc423ba5fb54ee8b8244b57db062c5209",
+      "videos/observation.images.side/chunk-000/file-000.mp4": "3b0f30282b21764fad29d46f4133e66e303dfcb95803510c790ca53dfd2bfe50",
+      "videos/observation.images.up/chunk-000/file-000.mp4": "73d93dae2091cb1b11995d17c34f67c1ec18db005e70acdf896d2307b47406d1"
+    }
+  }
+}

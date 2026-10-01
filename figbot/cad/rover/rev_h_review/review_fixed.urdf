@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="figbot_rev_h_fixed_inspection_only"><link name="review_scene"><visual><geometry><mesh filename="review_scene.stl" scale="0.001 0.001 0.001" /></geometry></visual></link></robot>

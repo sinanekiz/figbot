@@ -1,0 +1,22 @@
+{
+  "urdf_sha256": "3a65d2d35e68a8d2f0c2cc176d19b884506543c93ba72980145b80abe276022c",
+  "reference_joint_radians": [
+    0.0,
+    -0.24378689318009655,
+    0.282314890022235,
+    -0.03852799684213844,
+    0.0
+  ],
+  "reference_joint_degrees": [
+    0.0,
+    -13.967960079826165,
+    16.17545169197406,
+    -2.207491612147896,
+    0.0
+  ],
+  "reference_raw_encoder": null,
+  "motor_direction_signs": null,
+  "user_origin_to_urdf": null,
+  "physical_reference_status": "AWAITING_PHYSICAL_POSITION",
+  "motion_authorized": false
+}

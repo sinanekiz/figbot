@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.rule
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete.rule
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

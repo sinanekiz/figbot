@@ -1,0 +1,39 @@
+{
+  "status": "DESIGN_RECORDED_NOT_EXECUTABLE",
+  "user_decision_date": "2026-09-30",
+  "learned_task": "Reach the fig and grasp it.",
+  "learned_scope": ["LOCATE_REACHABLE_FIG", "APPROACH", "GRASP"],
+  "grasp_success_gate": {
+    "method": "CONTROLLED_SHORT_LIFT_WITH_RETENTION_CHECK",
+    "jaw_closure_alone_is_success": false,
+    "motor_arrival_alone_is_success": false,
+    "lift_distance": null,
+    "status": "PHYSICAL_VALIDATION_REQUIRED"
+  },
+  "transfer": {
+    "mode": "DETERMINISTIC_MOTION_AFTER_VERIFIED_GRASP",
+    "deployment_destination": "FIXED_REAR_CRATE",
+    "destination_reference": "ROBOT_BASE",
+    "destination_pose": null,
+    "destination_status": "UNVERIFIED",
+    "lab_destination": "WHITE_PAPER_FREE_TABLE_AREA",
+    "path_objective": "SHORTEST_VALIDATED_COLLISION_FREE_ROUTE",
+    "initial_pose": "ACTUAL_MEASURED_POSE_AFTER_GRASP_VERIFICATION",
+    "common_transfer_pose": null,
+    "route_status": "UNVERIFIED"
+  },
+  "camera": {
+    "primary": "VEHICLE_CENTER_CAMERA",
+    "must_show": ["FIG", "GRIPPER_APPROACH_AND_GRASP"],
+    "crate_in_primary_image_required": false,
+    "wrist_camera_required": false,
+    "training_mount_matches_deployment": "REQUIRED"
+  },
+  "training": {
+    "existing_demonstrations": "FULL_PICK_AND_PLACE_PRESERVE_ORIGINAL_TASKS",
+    "grasp_only_export": "NOT_IMPLEMENTED_REQUIRES_REVIEWED_SEGMENT_BOUNDARIES",
+    "prevent_transfer_actions_in_grasp_action_chunks": true
+  },
+  "vehicle_motion_during_pick": "STOPPED_INITIAL_SCOPE",
+  "motor_commands_sent": false
+}

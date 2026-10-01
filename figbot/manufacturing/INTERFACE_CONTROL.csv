@@ -1,0 +1,11 @@
+interface_id,part_a,part_b,nominal_mm,fit_or_tolerance,manufacturing_control,verification
+ICD-001,ARM-004/ARM-006,608-2RS bearing OD,22,"housing H7: 22.000 to 22.021","finish bore after machining; no coating in seat","plug/bore gauge and first-article report"
+ICD-002,ARM-008,608-2RS bearing ID,8,"shaft g6: 7.986 to 7.995","grind/finish journal; protect from coating","micrometer at two planes and two angles"
+ICD-003,ARM-002,6002-2RS bearing OD,32,"housing H7: 32.000 to 32.025","finish bore after fabrication; coaxiality review required","bore gauge and coaxiality first-article report"
+ICD-004,ARM-007,6002-2RS bearing ID,15,"shaft g6: 14.983 to 14.994","grind/finish journal; protect from coating","micrometer at two planes and two angles"
+ICD-005,ARM-001/ARM-002,NEMA23 gearbox pilot,38.1,"clearance 38.60 +0.10/-0.00","pilot is locating clearance; dowel after alignment only","incoming motor flange check then first article"
+ICD-006,ARM-004/ARM-006,NEMA17 gearbox flange,"31 square mounting pitch","hole position +/-0.10; M4 clearance 4.5","match official/incoming gearbox STEP revision","CMM or height-gauge first article"
+ICD-007,VIS-001,Camera Module 3 Wide,"21 x 12.5 hole pitch","four 2.4 mm clearance holes; position +/-0.10","M2 screws with polymer washers; no board bending","incoming camera fit and optical-axis survey"
+ICD-008,ELE-001,Raspberry Pi 5,"58 x 49 mounting pitch","four 2.7 mm holes; position +/-0.10","12 mm M2.5 standoffs; connector keepouts","incoming board fit"
+ICD-009,ARM-003/ARM-005,link stock,"40 x 30 x 2 rectangular tube","length +/-0.20; end squareness 0.20/100","jig drill only after stock measurement","surface plate/height gauge"
+ICD-010,ARM-007,Ruland proximal coupling,15,"coupling recommends shaft +0.000/-0.013; g6 lower limit is 0.004 mm smaller","ENGINEERING REVIEW REQUIRED: coupling clamp capacity at 14.983 mm shaft","blue-fit/slip test and proof torque before release"

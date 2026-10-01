@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "class_name": "dry_fig",
+  "status": "REVIEWED ORCHARD PHONE EXAMPLES — FIGBOT CAMERA UNVERIFIED",
+  "annotation_method": "Grounding DINO proposals manually reviewed against user-provided orchard photos",
+  "images": [
+    {
+      "id": "orchard_soil_overhead_full",
+      "source": "source/orchard_soil_overhead.jpg",
+      "split": "train",
+      "repeat": 40,
+      "boxes": [[363,65,466,161],[368,607,487,705],[822,925,959,1077],[542,1018,618,1144],[322,1191,414,1290]]
+    },
+    {
+      "id": "orchard_soil_oblique_many_full",
+      "source": "source/orchard_soil_oblique_many.jpg",
+      "split": "train",
+      "repeat": 40,
+      "boxes": [[376,416,432,468],[769,476,870,537],[562,795,684,867],[521,1100,628,1242],[210,1199,311,1290],[849,1141,1049,1274]]
+    },
+    {
+      "id": "orchard_soil_oblique_three_full",
+      "source": "source/orchard_soil_oblique_three.jpg",
+      "split": "train",
+      "repeat": 40,
+      "boxes": [[294,469,381,563],[911,700,1079,797],[528,1500,741,1651]]
+    },
+    {
+      "id": "orchard_concrete_many_full",
+      "source": "source/orchard_concrete_many.jpg",
+      "split": "train",
+      "repeat": 40,
+      "boxes": [[721,667,803,758],[357,760,462,864],[450,826,570,954],[761,910,874,990],[552,963,713,1106],[348,1000,496,1103]]
+    },
+    {
+      "id": "orchard_soil_overhead_upper_context",
+      "source": "source/orchard_soil_overhead.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [0,0,1152,1152],
+      "boxes": [[363,65,466,161],[368,607,487,705],[822,925,959,1077],[542,1018,618,1144]]
+    },
+    {
+      "id": "orchard_soil_overhead_lower_context",
+      "source": "source/orchard_soil_overhead.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [0,900,1152,1500],
+      "boxes": [[822,925,959,1077],[542,1018,618,1144],[322,1191,414,1290]]
+    },
+    {
+      "id": "orchard_soil_many_upper_context",
+      "source": "source/orchard_soil_oblique_many.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [0,300,1152,950],
+      "boxes": [[376,416,432,468],[769,476,870,537],[562,795,684,867]]
+    },
+    {
+      "id": "orchard_soil_many_lower_context",
+      "source": "source/orchard_soil_oblique_many.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [100,700,1152,1400],
+      "boxes": [[562,795,684,867],[521,1100,628,1242],[210,1199,311,1290],[849,1141,1049,1274]]
+    },
+    {
+      "id": "orchard_soil_three_upper_context",
+      "source": "source/orchard_soil_oblique_three.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [150,350,1152,900],
+      "boxes": [[294,469,381,563],[911,700,1079,797]]
+    },
+    {
+      "id": "orchard_soil_three_lower_context",
+      "source": "source/orchard_soil_oblique_three.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [300,1350,850,1750],
+      "boxes": [[528,1500,741,1651]]
+    },
+    {
+      "id": "orchard_concrete_context",
+      "source": "source/orchard_concrete_many.jpg",
+      "split": "train",
+      "repeat": 20,
+      "crop": [250,550,950,1200],
+      "boxes": [[721,667,803,758],[357,760,462,864],[450,826,570,954],[761,910,874,990],[552,963,713,1106],[348,1000,496,1103]]
+    },
+    {
+      "id": "orchard_flowers_rocks_negative",
+      "source": "source/orchard_soil_overhead.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [650,150,1050,850],
+      "boxes": []
+    },
+    {
+      "id": "orchard_distant_soil_negative",
+      "source": "source/orchard_soil_oblique_many.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [0,0,1152,380],
+      "boxes": []
+    },
+    {
+      "id": "orchard_rocks_leaves_negative",
+      "source": "source/orchard_soil_oblique_three.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [0,850,1152,1350],
+      "boxes": []
+    },
+    {
+      "id": "orchard_shoe_grass_negative",
+      "source": "source/orchard_concrete_many.jpg",
+      "split": "train",
+      "repeat": 15,
+      "crop": [750,0,1152,650],
+      "boxes": []
+    }
+  ]
+}

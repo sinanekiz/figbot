@@ -1,0 +1,333 @@
+{
+  "connections": [
+    {
+      "a": "rear DC motor L",
+      "b": "rear gearbox L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear gearbox L",
+      "b": "rear motor output shaft L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear motor output shaft L",
+      "b": "rear shaft coupling L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear shaft coupling L",
+      "b": "rear supported axle L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear supported axle L",
+      "b": "hub RL",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "hub RL",
+      "b": "rim RL",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rim RL",
+      "b": "wheel RL",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front upper bridge",
+      "b": "front kingpin support stem L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front kingpin support stem L",
+      "b": "front kingpin bearing carrier L 156",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front kingpin L",
+      "b": "front steering knuckle L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front steering knuckle L",
+      "b": "front spindle L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front spindle L",
+      "b": "front hub bearing L 400",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front hub bearing L 400",
+      "b": "hub FL",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "hub FL",
+      "b": "rim FL",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rim FL",
+      "b": "wheel FL",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front steering arm L",
+      "b": "front steering knuckle L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front steering arm L",
+      "b": "front steering tie rod",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "arm support outrigger L",
+      "b": "arm support upright L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "arm support upright L",
+      "b": "arm top longitudinal rail L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "arm top longitudinal rail L",
+      "b": "arm mount L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear supported axle L",
+      "b": "rear bearing insert L 320",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear bearing insert L 320",
+      "b": "rear bearing housing L 320",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear bearing housing L 320",
+      "b": "rear bearing outrigger L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear supported axle L",
+      "b": "rear bearing insert L 365",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear bearing insert L 365",
+      "b": "rear bearing housing L 365",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear bearing housing L 365",
+      "b": "rear bearing outrigger L",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear DC motor R",
+      "b": "rear gearbox R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear gearbox R",
+      "b": "rear motor output shaft R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear motor output shaft R",
+      "b": "rear shaft coupling R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear shaft coupling R",
+      "b": "rear supported axle R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear supported axle R",
+      "b": "hub RR",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "hub RR",
+      "b": "rim RR",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rim RR",
+      "b": "wheel RR",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front upper bridge",
+      "b": "front kingpin support stem R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front kingpin support stem R",
+      "b": "front kingpin bearing carrier R 156",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front kingpin R",
+      "b": "front steering knuckle R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front steering knuckle R",
+      "b": "front spindle R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front spindle R",
+      "b": "front hub bearing R 400",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front hub bearing R 400",
+      "b": "hub FR",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "hub FR",
+      "b": "rim FR",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rim FR",
+      "b": "wheel FR",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front steering arm R",
+      "b": "front steering knuckle R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "front steering arm R",
+      "b": "front steering tie rod",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "arm support outrigger R",
+      "b": "arm support upright R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "arm support upright R",
+      "b": "arm top longitudinal rail R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "arm top longitudinal rail R",
+      "b": "arm mount R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear supported axle R",
+      "b": "rear bearing insert R 320",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear bearing insert R 320",
+      "b": "rear bearing housing R 320",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear bearing housing R 320",
+      "b": "rear bearing outrigger R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear supported axle R",
+      "b": "rear bearing insert R 365",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear bearing insert R 365",
+      "b": "rear bearing housing R 365",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "rear bearing housing R 365",
+      "b": "rear bearing outrigger R",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "steering actuator body envelope",
+      "b": "steering actuator fixed bracket",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "steering actuator body envelope",
+      "b": "steering actuator pushrod",
+      "gap_mm": 0.0
+    },
+    {
+      "a": "steering actuator pushrod",
+      "b": "front tie rod ball L",
+      "gap_mm": 0.0
+    }
+  ],
+  "gear_vs_basket_equipment_camera": [],
+  "front_tire_steering_samples": [
+    {
+      "side": "L",
+      "steer_deg": -30,
+      "intersections": []
+    },
+    {
+      "side": "L",
+      "steer_deg": -15,
+      "intersections": []
+    },
+    {
+      "side": "L",
+      "steer_deg": 0,
+      "intersections": []
+    },
+    {
+      "side": "L",
+      "steer_deg": 15,
+      "intersections": []
+    },
+    {
+      "side": "L",
+      "steer_deg": 30,
+      "intersections": []
+    },
+    {
+      "side": "R",
+      "steer_deg": -30,
+      "intersections": []
+    },
+    {
+      "side": "R",
+      "steer_deg": -15,
+      "intersections": []
+    },
+    {
+      "side": "R",
+      "steer_deg": 0,
+      "intersections": []
+    },
+    {
+      "side": "R",
+      "steer_deg": 15,
+      "intersections": []
+    },
+    {
+      "side": "R",
+      "steer_deg": 30,
+      "intersections": []
+    }
+  ],
+  "scope": "Nominal force-path adjacency and tire envelopes only. Steering linkage kinematics, bearing fits, bolts, torque, brakes and structural loads UNVERIFIED."
+}

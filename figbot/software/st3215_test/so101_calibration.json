@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-20",
+  "status": "PARTIAL_COORDINATE_REFERENCE_ONLY_MOTION_NOT_CALIBRATED",
+  "joints": {
+    "shoulder_pan": {
+      "label": "Taban dönüşü",
+      "intended_servo_id": 1,
+      "physical_servo_identity_verified": false,
+      "unit": "displayed_motor_degrees",
+      "zero_motor_degrees": 234,
+      "end_motor_degrees": 113,
+      "direction": "increasing_across_zero",
+      "joint_range_degrees": [
+        0,
+        239
+      ],
+      "unwrapped_motor_range_degrees": [
+        234,
+        473
+      ],
+      "display_mapping": "motor_degrees = (234 + joint_degrees) modulo 360",
+      "direction_confirmed_by_user": true,
+      "hardware_applied": false,
+      "bench_app_applies_this_profile": false,
+      "physical_validation": "PHYSICAL VALIDATION REQUIRED",
+      "notes": "Display mapping only, not a raw motor trajectory. Crossing encoder zero needs a validated wrap-aware joint controller. Do not send endpoint 113 directly assuming it will follow the requested 239-degree path. Readings depend on unchanged horn mounting and encoder offset."
+    },
+    "shoulder_lift": {
+      "label": "Omuz",
+      "intended_servo_id": 2,
+      "physical_servo_identity_verified": true,
+      "old_homing_offset": 85,
+      "homing_offset": -813,
+      "encoded_homing_offset": 2861,
+      "hardware_offset_applied": true,
+      "observed_raw_range_before_offset": [
+        3991,
+        2404
+      ],
+      "observed_unwrapped_range_before_offset": [
+        3991,
+        6500
+      ],
+      "coordinate_shift_modulo4096": 898,
+      "observed_range_after_offset": [
+        793,
+        3302
+      ],
+      "safe_limits_verified": false,
+      "motion_calibration_complete": false,
+      "motion_status": "POSITIVE_MICRO_PROBE_PASSED_AFTER_POWER_CYCLE_FULL_RANGE_UNVERIFIED",
+      "notes": "Offset85 -> -813 readback verified. After power cycle,1015 -> target1072 reached1064 within8step tolerance. Reverse initial displacement seen before power cycle did not recur in this single probe; cause not conclusively established. Observed endpoints are not safe limits. Do not use pre-normalization shoulder raw targets."
+    }
+  }
+}

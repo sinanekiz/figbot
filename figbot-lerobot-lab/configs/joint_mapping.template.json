@@ -1,0 +1,15 @@
+{
+  "status": "UNVERIFIED",
+  "evidence": null,
+  "state_convention": "lerobot_range_m100_100_gripper_0_100",
+  "joint_order": ["shoulder_pan", "shoulder_lift", "elbow_flex", "wrist_flex", "wrist_roll", "gripper"],
+  "notes": "Fill from a verified LeRobot-compatible calibration of this physical arm. Do not use observed demonstration minima/maxima as mechanical limits. Encoder offsets, wrap branch, joint directions and checkpoint convention must agree.",
+  "joints": {
+    "shoulder_pan": {"raw_counts": [], "policy_values": []},
+    "shoulder_lift": {"raw_counts": [], "policy_values": []},
+    "elbow_flex": {"raw_counts": [], "policy_values": []},
+    "wrist_flex": {"raw_counts": [], "policy_values": []},
+    "wrist_roll": {"raw_counts": [], "policy_values": []},
+    "gripper": {"raw_counts": [], "policy_values": []}
+  }
+}

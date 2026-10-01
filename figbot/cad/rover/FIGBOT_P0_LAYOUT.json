@@ -1,0 +1,130 @@
+{
+  "revision": "G",
+  "status": "PACKAGING CONCEPT - PHYSICAL VALIDATION REQUIRED",
+  "units": "mm",
+  "coordinate_system": "+X forward, +Y left, +Z up",
+  "chassis": {
+    "length": 650.0,
+    "width": 600.0
+  },
+  "wheel": {
+    "diameter": 254.0,
+    "actual_model_width": 60.0,
+    "wheelbase": 510.0,
+    "track": 830.0
+  },
+  "steering": {
+    "type": "front Ackermann",
+    "limit_deg": 30.0,
+    "visual_left_turn_deg": {
+      "left": 21,
+      "right": 13.5
+    },
+    "actuator_candidate": "24 V / 100 mm / 205 mm closed envelope",
+    "clearance_report_mm": {
+      "steered_tyre_to_frame_mm": 25.51923788646684,
+      "rear_tyre_to_frame_mm": 85.0,
+      "camera_mast_to_front_wheel_sweep_mm": 318.2117919167834,
+      "dual_arm_mount_gap_mm": 390.0,
+      "arm_mount_to_front_wheel_sweep_mm": 28.64309398831105,
+      "basket_front_to_frame_mm": 25.0,
+      "basket_side_to_arm_mount_mm": 20.0,
+      "basket_to_rear_tyre_mm": 210.0,
+      "basket_floor_rise_mm": 56.2163338809566,
+      "basket_front_internal_depth_mm": 123.7836661190434
+    }
+  },
+  "drive": {
+    "type": "rear 2WD",
+    "motors": "2 x 24 V 250 W candidate"
+  },
+  "arms": {
+    "count": 2,
+    "candidate": "task-specific lightweight MG996R F/P test arm",
+    "geometry_source": "cad/prototype_arm/build_servo_arm.py",
+    "main_actuators_per_arm": "4 x MG996R PWM servo candidate (dual J2 shoulder)",
+    "gripper_actuator_per_arm": "1 x MG90S candidate",
+    "wrist": "passive parallelogram; no powered J4",
+    "bases": [
+      [
+        120.0,
+        250.0,
+        111.0
+      ],
+      [
+        120.0,
+        -250.0,
+        111.0
+      ]
+    ],
+    "placement": "arms flank the front basket at the same X station",
+    "target_partition": "left arm Y>=0; right arm Y<0; overlap requires coordination interlock"
+  },
+  "basket": {
+    "center": [
+      100.0,
+      0.0,
+      232.0
+    ],
+    "main_envelope": [
+      400.0,
+      350.0,
+      180.0
+    ],
+    "drop_points": [
+      [
+        250.0,
+        140.0,
+        326.189292145837
+      ],
+      [
+        250.0,
+        -140.0,
+        326.189292145837
+      ]
+    ],
+    "side_opening_length": 150.0,
+    "side_opening_center_x": 220.0,
+    "floor_slope_deg": 8.0,
+    "adjustable_slope_range_deg": [
+      5.0,
+      12.0
+    ],
+    "rear_floor_z": 232.0,
+    "front_floor_z": 288.2163338809566,
+    "fill_direction": "front (+X) release to rear (-X) passive feed",
+    "liner": "removable low-friction food-contact liner; material TBD",
+    "rear_stop": "soft energy-absorbing stop; material and thickness TBD",
+    "placement": "front-centre, between the two arm bases"
+  },
+  "ground_pick_zone": {
+    "x": [
+      320.0,
+      620.0
+    ],
+    "y": [
+      -220.0,
+      220.0
+    ],
+    "z": [
+      0.0,
+      80.0
+    ]
+  },
+  "arm_command_pick_lanes": {
+    "x": [
+      420.0,
+      600.0
+    ],
+    "left_y": [
+      180.0,
+      320.0
+    ],
+    "right_y": [
+      -320.0,
+      -180.0
+    ],
+    "policy": "vehicle repositions detections into one lane before arm motion"
+  },
+  "interfaces": "TBD until incoming purchased-part measurements"
+}

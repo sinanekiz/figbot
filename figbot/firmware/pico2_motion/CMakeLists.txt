@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.13)
+
+if(NOT DEFINED ENV{PICO_SDK_PATH})
+  message(FATAL_ERROR "PICO_SDK_PATH must point to a checked-out Raspberry Pi Pico SDK")
+endif()
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+project(figbot_pico2_motion C CXX ASM)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+set(PICO_BOARD pico2 CACHE STRING "Target board")
+pico_sdk_init()
+
+add_executable(figbot_pico2_motion src/main.cpp)
+target_link_libraries(figbot_pico2_motion pico_stdlib hardware_watchdog)
+pico_enable_stdio_usb(figbot_pico2_motion 1)
+pico_enable_stdio_uart(figbot_pico2_motion 0)
+pico_add_extra_outputs(figbot_pico2_motion)

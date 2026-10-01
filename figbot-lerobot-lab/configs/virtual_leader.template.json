@@ -1,0 +1,13 @@
+{
+  "status": "UNVERIFIED",
+  "evidence": null,
+  "note": "Only fill from physical URDF-pose, direction, envelope and encoder-offset verification. No automatic calibration or EEPROM write. Counts per radian = 4096/(2*pi). Limits may not cross encoder zero. This profile is independent of pretrained policy normalization.",
+  "joints": {
+    "shoulder_pan": {"id": 1, "zero_raw": null, "direction": null, "raw_min": null, "raw_max": null, "offset_encoded": null, "evidence": null},
+    "shoulder_lift": {"id": 2, "zero_raw": null, "direction": null, "raw_min": null, "raw_max": null, "offset_encoded": null, "evidence": null},
+    "elbow_flex": {"id": 3, "zero_raw": null, "direction": null, "raw_min": null, "raw_max": null, "offset_encoded": null, "evidence": null},
+    "wrist_flex": {"id": 4, "zero_raw": null, "direction": null, "raw_min": null, "raw_max": null, "offset_encoded": null, "evidence": null},
+    "wrist_roll": {"id": 5, "zero_raw": null, "direction": null, "raw_min": null, "raw_max": null, "offset_encoded": null, "evidence": null},
+    "gripper": {"id": 6, "zero_raw": null, "direction": null, "raw_min": null, "raw_max": null, "offset_encoded": null, "evidence": null}
+  }
+}

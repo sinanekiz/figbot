@@ -1,0 +1,22 @@
+{
+  "revision": "G",
+  "status": "ANALYTIC / PHYSICAL VALIDATION REQUIRED",
+  "grid_step_mm": {
+    "xy": 10,
+    "z": 20
+  },
+  "results": {
+    "left": {
+      "lane_success": 1425,
+      "lane_total": 1425,
+      "lane_fraction": 1.0,
+      "drop_reachable": true
+    },
+    "right": {
+      "lane_success": 1425,
+      "lane_total": 1425,
+      "lane_fraction": 1.0,
+      "drop_reachable": true
+    }
+  }
+}

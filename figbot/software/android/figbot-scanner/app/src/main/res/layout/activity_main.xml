@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cameraRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.figbot.scanner.TargetOverlayView
+        android:id="@+id/targetOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#CC10150F"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/cameraMenuButton" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Menü" />
+            <Button android:id="@+id/cameraMotorsButton" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="USB bağlan" />
+            <Button android:id="@+id/harvestGateButton" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Kol ayarları" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TELEFONLA TOPLAMA · Ölçüm, önizleme ve kontrollü deneme" android:textColor="#FFDB8A" android:textSize="13sp" />
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status_starting"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/calibrationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Kalibrasyon: Orijin ve +X bekleniyor"
+            android:textColor="#C6D2BF"
+            android:textSize="13sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/setOriginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 · Orijin" />
+
+                <Button
+                    android:id="@+id/setXButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 · +X" />
+
+                <Button
+                    android:id="@+id/clearButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temizle" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legacyTransferPanel"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#D910150F"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/endpointText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF4F5F2"
+            android:hint="FIGBOT HTTP hedefi"
+            android:inputType="textUri"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="http://127.0.0.1:8872/api/targets"
+            android:textColor="#10150F"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/exportButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="JSON Kaydet" />
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="FIGBOT’a Gönder" />
+        </LinearLayout>
+
+        <Button android:id="@+id/streamButton"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Canlı aktarımı başlat" />
+        <TextView android:id="@+id/streamStatus"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="PC aktarımı kapalı" android:textColor="#FFFFFF" android:textSize="13sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacy_notice"
+            android:textColor="#9DAA96"
+            android:textSize="9sp" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="bottom" android:orientation="vertical" android:background="#ED10150F" android:padding="10dp">
+        <TextView android:id="@+id/robotStatus" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="USB bağlı değil · Kol ayarlarını tamamla." android:textColor="#FFFFFF" android:textSize="14sp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/robotPreview" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Önizle" />
+            <Button android:id="@+id/robotStart" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Hedefe git" />
+            <Button android:id="@+id/robotStop" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="DUR" android:textColor="#FFFFFF" android:backgroundTint="#AF2626" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/speedButton" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Hız: Yavaş" />
+            <Button android:id="@+id/homeButton" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Başlangıca dön" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

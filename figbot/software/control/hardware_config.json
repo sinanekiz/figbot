@@ -1,0 +1,26 @@
+{
+  "status": "RELEASE_CANDIDATE_PHYSICAL_COMMISSIONING_REQUIRED",
+  "serial": {
+    "baud": 115200,
+    "heartbeat_ms": 100,
+    "watchdog_ms": 300
+  },
+  "axes": {
+    "J1": {"motor": "17HS15-1684D-HG10-AR4", "driver": "CL42T-V41", "gear_ratio": 10.0, "motor_steps_per_rev": 200, "microsteps": 16, "direction": 1, "zero_offset_deg": 0.0, "min_deg": -115.0, "max_deg": 115.0, "max_deg_s": 180.0, "max_deg_s2": 360.0},
+    "J2": {"motor": "23HS22-HG10-E1000", "driver": "CL57T-V41", "gear_ratio": 10.0, "motor_steps_per_rev": 200, "microsteps": 16, "direction": 1, "zero_offset_deg": 0.0, "min_deg": -80.0, "max_deg": 100.0, "max_deg_s": 120.0, "max_deg_s2": 180.0},
+    "J3": {"motor": "17HS15-1684D-HG10-AR4", "driver": "CL42T-V41", "gear_ratio": 10.0, "motor_steps_per_rev": 200, "microsteps": 16, "direction": 1, "zero_offset_deg": 0.0, "min_deg": -135.0, "max_deg": 135.0, "max_deg_s": 180.0, "max_deg_s2": 300.0},
+    "J4": {"motor": "17HS15-1684D-HG10-AR4", "driver": "CL42T-V41", "gear_ratio": 10.0, "motor_steps_per_rev": 200, "microsteps": 16, "direction": 1, "zero_offset_deg": 0.0, "min_deg": -100.0, "max_deg": 100.0, "max_deg_s": 180.0, "max_deg_s2": 360.0}
+  },
+  "gripper": {
+    "model": "XL330-M288-T",
+    "protocol": 2.0,
+    "baud": 1000000,
+    "id": 1,
+    "voltage_v": 5.0,
+    "current_limit_ma": "TBD_PHYSICAL_FIG_DAMAGE_TEST",
+    "open_position_ticks": "TBD_LINKAGE_CALIBRATION",
+    "closed_position_ticks": "TBD_LINKAGE_CALIBRATION",
+    "profile_velocity": 60,
+    "profile_acceleration": 20
+  }
+}

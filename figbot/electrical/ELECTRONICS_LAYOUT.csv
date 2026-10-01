@@ -1,0 +1,10 @@
+ref,component,manufacturer_part_number,qty,envelope_mm,mounting_method,layout_status
+PS1,24 V PSU,MEAN WELL LRS-450-24,1,"225x124x40.5","manufacturer chassis holes; exact drawing required",CONTROLLED_SELECTION_INCOMING_CHECK
+DRV1,J1 driver,CL42T-V41,1,"vendor STEP controls","DIN adapter or chassis holes after incoming measurement",BLOCKED_FOR_VENDOR_REVISION
+DRV2,J2 driver,CL57T-V41,1,"vendor STEP controls","DIN adapter or chassis holes after incoming measurement",BLOCKED_FOR_VENDOR_REVISION
+DRV3,J3 driver,CL42T-V41,1,"vendor STEP controls","DIN adapter or chassis holes after incoming measurement",BLOCKED_FOR_VENDOR_REVISION
+DRV4,J4 driver,CL42T-V41,1,"vendor STEP controls","DIN adapter or chassis holes after incoming measurement",BLOCKED_FOR_VENDOR_REVISION
+SR1,Safety relay,Omron G9SE-201,1,"22.5x100x111 nominal family envelope","35 mm DIN rail",HUMAN_ELECTRICAL_REVIEW_REQUIRED
+CPU1,Compute,Raspberry Pi 5 8GB,1,"85x56 board; connector keepouts required","4x M2.5 standoffs on 58x49 pitch",CONTROLLED_SELECTION
+MCU1,Motion controller,Raspberry Pi Pico 2,1,"21x51 nominal","socketed carrier board",CONTROLLED_SELECTION_INCOMING_CHECK
+TB1,Terminal blocks,Phoenix Contact PT 2.5 family,TBD,"DIN rail stack length after final circuit count","35 mm DIN rail",BLOCKED_FOR_FINAL_SCHEMATIC

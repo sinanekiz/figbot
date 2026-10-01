@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "status": "LOCAL_GEOMETRIC_ESTIMATE_SUPERVISED_VALIDATION",
+  "urdf_sha256": "3a65d2d35e68a8d2f0c2cc176d19b884506543c93ba72980145b80abe276022c",
+  "reference_raw_unwrapped": [1996, 1824, 3107, 1878, 4208],
+  "reference_joint_degrees": [0, -13.967960079826165, 16.17545169197406, -2.207491612147896, 0],
+  "direction_signs": [1, 1, 1, 1, 1],
+  "servo_offsets": {"1": 4080, "2": 2861, "3": 85, "4": 85, "5": 85, "6": 85},
+  "source": "User-supported reference capture 1789877314.5771022. Base reference 3975 shifted by -1979. Explicit wrist-roll reference branch 112+4096; roll remains locked during XYZ commands.",
+  "direction_evidence": "IDs1-4 signs inferred from vendor URDF axes and observed right pan, positive shoulder lowering, positive elbow folding, negative wrist extension. Side camera geometry consistent with these signs. ID5 sign is a model estimate only; XYZ never commands ID5.",
+  "physical_accuracy": "UNVERIFIED; use supervised local validation, not autonomous camera targeting",
+  "camera_to_base_transform": "UNVERIFIED",
+  "frame": "vendor_base_link",
+  "units": "XYZ millimetres; joint model radians; encoder counts"
+}

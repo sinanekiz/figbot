@@ -1,0 +1,16 @@
+{
+  "task": "Reach the fig and grasp it.",
+  "learned_stage": "APPROACH_AND_GRASP",
+  "handoff_condition": "VERIFIED_RETENTION_AFTER_CONTROLLED_SHORT_LIFT",
+  "target": "WHITE_PAPER_FREE_TABLE_AREA",
+  "user_selected": true,
+  "evidence_image": "runs/20260929T073627_078235Z_phone_camera/latest.jpg",
+  "image_size": [640, 480],
+  "visible_fig_count": 4,
+  "visual_review": "White paper is visible in the lower part of the frame. Robot/base and cables partly obscure its lower edge.",
+  "robot_coordinates": null,
+  "reachability": "UNVERIFIED",
+  "joint_mapping": "UNVERIFIED",
+  "motor_commands_sent": false,
+  "training_note": "Existing demonstrations include transfer and basket release. Preserve their original labels. A grasp-only training dataset requires reviewed segment boundaries and matching action windows; changing task text alone is insufficient. Paper is the temporary lab release target; deployment uses a fixed rear crate."
+}

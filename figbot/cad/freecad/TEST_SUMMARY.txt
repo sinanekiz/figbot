@@ -1,0 +1,5 @@
+..........................                                               [100%]
+26 passed in 210.16s (0:03:30)
+
+PASS: invalid length rejected; old geometry preserved; restoring prior value recovers OK
+PASS: native documents saved with colors and rendered by FreeCAD

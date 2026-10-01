@@ -1,0 +1,27 @@
+section,item,supplier_response,currency_or_unit,notes
+Company,Legal name,,,
+Company,Manufacturing site,,,
+Company,Technical contact,,,
+Company,Commercial contact,,,
+Phase A,Design freeze and DFM price,,,Include native CAD drawings BOM and interface closure
+Phase A,Lead time,,calendar weeks,
+Phase B,One complete first article price,,,Separate components fabrication assembly and testing
+Phase B,Lead time,,calendar weeks,
+Phase B,Included validation tests,,,Reference validation test IDs
+Phase C,Unit price quantity 1,,,After first-article acceptance
+Phase C,Unit price quantity 10,,,
+Phase C,Unit price quantity 50,,,
+Phase C,Unit price quantity 100,,,
+Phase C,Minimum order quantity,,units,
+Commercial,Tooling and fixtures,,,State ownership and storage terms
+Commercial,Prototype revision allowance,,,State included engineering hours or iterations
+Commercial,Export packaging,,,
+Commercial,Estimated shipping to Turkiye,,,
+Commercial,Incoterms,,,
+Commercial,Payment terms,,,
+Commercial,Warranty,,months,
+Commercial,Spare-part support,,years,
+Technical,Proposed component substitutions,,,Provide manufacturer and part number
+Technical,Assumptions and exclusions,,,
+Technical,Requested deviations,,,
+

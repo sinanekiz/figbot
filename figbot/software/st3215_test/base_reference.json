@@ -1,0 +1,74 @@
+{
+  "status": "VERIFIED",
+  "servo_id": 1,
+  "old_offset": 85,
+  "old_position": 4026,
+  "before": {
+    "1": {
+      "position": 4026,
+      "speed": 0,
+      "voltage": 12.3,
+      "temperature": 34,
+      "current_raw": 0,
+      "moving": false,
+      "torque": 1
+    },
+    "2": {
+      "position": 1889,
+      "speed": 0,
+      "voltage": 12.2,
+      "temperature": 38,
+      "current_raw": 1,
+      "moving": false,
+      "torque": 1
+    },
+    "3": {
+      "position": 3781,
+      "speed": 0,
+      "voltage": 12.3,
+      "temperature": 36,
+      "current_raw": 0,
+      "moving": false,
+      "torque": 1
+    },
+    "4": {
+      "position": 1277,
+      "speed": 0,
+      "voltage": 12.2,
+      "temperature": 36,
+      "current_raw": 0,
+      "moving": false,
+      "torque": 1
+    },
+    "5": {
+      "position": 3127,
+      "speed": 0,
+      "voltage": 12.3,
+      "temperature": 36,
+      "current_raw": 0,
+      "moving": false,
+      "torque": 1
+    },
+    "6": {
+      "position": 786,
+      "speed": 0,
+      "voltage": 12.2,
+      "temperature": 38,
+      "current_raw": 0,
+      "moving": false,
+      "torque": 1
+    }
+  },
+  "time_unix": 1789933842.0949748,
+  "new_position": 2048,
+  "new_offset": 4080,
+  "envelope": [
+    721,
+    3277
+  ],
+  "verification_scope": "COORDINATES_HOLD_AND_SUPERVISED_RIGHT_TURN_VERIFIED",
+  "encoder_quantization_counts": 1,
+  "original_audit": "C:\\Users\\Sinan\\Documents\\ChatGPT\\figbot\\GUNCEL\\YAZILIM\\ST3215_TEST\\KAYITLAR\\SURUS_20260920T195026Z\\base_center_audit.json",
+  "validated_session": "72aa3d35d8a44c3f96a315780672f451",
+  "right_turn_verified_to_raw": 2541
+}

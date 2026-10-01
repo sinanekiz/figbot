@@ -1,0 +1,13 @@
+{
+  "status": "EXAMPLE ONLY — NOT A CALIBRATION RESULT",
+  "from_frame": "camera_optical",
+  "to_frame": "base_link",
+  "units": "metres",
+  "matrix": [
+    [1.0, 0.0, 0.0, 0.0],
+    [0.0, 1.0, 0.0, 0.0],
+    [0.0, 0.0, 1.0, 0.0],
+    [0.0, 0.0, 0.0, 1.0]
+  ]
+}
+

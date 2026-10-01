@@ -1,0 +1,1 @@
+PASS: invalid length rejected; old geometry preserved; restoring prior value recovers OK

@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "class_name": "dry_fig",
+  "status": "REVIEWED PHONE FAILURE EXAMPLES — FIGBOT CAMERA UNVERIFIED",
+  "annotation_method": "User-reported APK failure screenshots; dry-fig boxes manually reviewed and UI/overlay regions excluded by crops",
+  "images": [
+    {
+      "id": "under_grass_full",
+      "source": "source/dry_figs_under_grass.png",
+      "split": "train",
+      "repeat": 35,
+      "crop": [0, 398, 940, 1733],
+      "boxes": [[375,1057,495,1156],[497,1113,623,1217],[527,1559,586,1633]]
+    },
+    {
+      "id": "under_grass_pair_context",
+      "source": "source/dry_figs_under_grass.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [250, 900, 750, 1350],
+      "boxes": [[375,1057,495,1156],[497,1113,623,1217]]
+    },
+    {
+      "id": "under_grass_bottom_context",
+      "source": "source/dry_figs_under_grass.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [400, 1400, 700, 1700],
+      "boxes": [[527,1559,586,1633]]
+    },
+    {
+      "id": "sparse_grass_full",
+      "source": "source/dry_figs_sparse_grass.png",
+      "split": "train",
+      "repeat": 30,
+      "crop": [0, 398, 940, 1733],
+      "boxes": [[389,995,527,1134],[524,866,571,913]]
+    },
+    {
+      "id": "sparse_grass_context",
+      "source": "source/dry_figs_sparse_grass.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [250, 750, 700, 1250],
+      "boxes": [[389,995,527,1134],[524,866,571,913]]
+    },
+    {
+      "id": "leaf_litter_real_fig",
+      "source": "source/dry_fig_leaf_litter.png",
+      "split": "train",
+      "repeat": 25,
+      "crop": [150, 700, 550, 1100],
+      "boxes": [[292,902,414,997]]
+    },
+    {
+      "id": "leaf_soil_top_negative",
+      "source": "source/leaf_false_soil.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [0, 398, 940, 900],
+      "boxes": []
+    },
+    {
+      "id": "leaf_soil_lower_negative",
+      "source": "source/leaf_false_soil.png",
+      "split": "train",
+      "repeat": 15,
+      "crop": [0, 1200, 940, 1730],
+      "boxes": []
+    },
+    {
+      "id": "fresh_dark_pair_negative",
+      "source": "source/fresh_dark_figs.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [100, 620, 850, 1050],
+      "boxes": []
+    },
+    {
+      "id": "fresh_dark_large_negative",
+      "source": "source/fresh_dark_figs.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [350, 1050, 800, 1580],
+      "boxes": []
+    },
+    {
+      "id": "leaf_litter_negative",
+      "source": "source/dry_fig_leaf_litter.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [0, 1050, 720, 1730],
+      "boxes": []
+    },
+    {
+      "id": "leaf_close_negative",
+      "source": "source/leaf_false_close.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [150, 430, 510, 820],
+      "boxes": []
+    }
+  ]
+}

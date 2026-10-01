@@ -1,0 +1,127 @@
+{
+  "schema": "figbot.so101.reference-calibration.v1",
+  "recorded_unix": 1789877314.5771022,
+  "source": "user_confirmed_hand_supported_reference_then_direct_read_only",
+  "reference_pose": "vendor_new_calibration_geometric_reference",
+  "vendor_urdf": "references/vendor/so101/Simulation/SO101/so101_new_calib.urdf",
+  "vendor_urdf_sha256": "3a65d2d35e68a8d2f0c2cc176d19b884506543c93ba72980145b80abe276022c",
+  "joint_order": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ],
+  "motor_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "reference_raw_encoder": {
+    "1": 3975,
+    "2": 1824,
+    "3": 3107,
+    "4": 1878,
+    "5": 112,
+    "6": 1392
+  },
+  "reference_joint_degrees": [
+    0.0,
+    -13.967960079826165,
+    16.17545169197406,
+    -2.207491612147896,
+    0.0,
+    null
+  ],
+  "motor_direction_signs": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    1
+  ],
+  "gripper_note": "ID6 increasing opens, based on user confirmation; exact reference jaw angle not measured.",
+  "camera_base_transform": "UNVERIFIED",
+  "physical_joint_zero": "UNVERIFIED",
+  "collision_free": "UNVERIFIED",
+  "motion_authorized": false,
+  "safety_readback": {
+    "read_unix": 1789877314.5771022,
+    "port": "COM5",
+    "operation": "READ_ONLY_HAND_SUPPORTED_REFERENCE",
+    "writes": false,
+    "rows": {
+      "1": {
+        "position": 3975,
+        "speed": 0,
+        "voltage": 12.3,
+        "temperature": 34,
+        "current_raw": 0,
+        "moving": false
+      },
+      "2": {
+        "position": 1824,
+        "speed": 0,
+        "voltage": 12.2,
+        "temperature": 36,
+        "current_raw": 0,
+        "moving": false
+      },
+      "3": {
+        "position": 3107,
+        "speed": 0,
+        "voltage": 12.3,
+        "temperature": 34,
+        "current_raw": 0,
+        "moving": false
+      },
+      "4": {
+        "position": 1878,
+        "speed": 0,
+        "voltage": 12.2,
+        "temperature": 35,
+        "current_raw": 0,
+        "moving": false
+      },
+      "5": {
+        "position": 112,
+        "speed": 0,
+        "voltage": 12.3,
+        "temperature": 35,
+        "current_raw": 0,
+        "moving": false
+      },
+      "6": {
+        "position": 1392,
+        "speed": 0,
+        "voltage": 12.2,
+        "temperature": 37,
+        "current_raw": 0,
+        "moving": false
+      }
+    },
+    "all_stationary": true,
+    "user_confirmed_supported": true
+  },
+  "next_required": [
+    "establish encoder direction for IDs 1-5",
+    "map camera base_link to vendor base joint centre",
+    "validate one small unloaded joint probe with single serial owner",
+    "solve IK and collision-check before target motion"
+  ],
+  "physical_reference_status": "CAPTURED_HAND_SUPPORTED_PENDING_DIRECTION_AND_TRANSFORM",
+  "previous_unreliable_reference_raw_encoder": {
+    "1": 3973,
+    "2": 1907,
+    "3": 3823,
+    "4": 1872,
+    "5": 211,
+    "6": 1391
+  },
+  "previous_reference_status": "INVALIDATED_STALE_STATUS_DURING_DUPLICATE_CONTROLLER_CONFLICT"
+}

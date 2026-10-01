@@ -1,0 +1,5 @@
+ultralytics>=8.4.83
+onnx>=1.19.0
+onnxslim>=0.1.71
+Pillow>=11.3.0
+opencv-python-headless>=4.11.0

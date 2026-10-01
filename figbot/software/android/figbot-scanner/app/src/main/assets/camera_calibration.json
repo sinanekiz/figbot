@@ -1,0 +1,57 @@
+{
+  "schema": "figbot.camera_calib.v1",
+  "camera_to_base": {
+    "translation_mm": [
+      0.0,
+      200.0,
+      150.0
+    ],
+    "rotation_deg": {
+      "yaw": -30.0,
+      "pitch": -45.0,
+      "roll": 0.0
+    },
+    "matrix": [
+      [
+        0.6123724356957946,
+        0.49999999999999994,
+        -0.6123724356957946,
+        0.0
+      ],
+      [
+        -0.3535533905932737,
+        0.8660254037844387,
+        0.35355339059327373,
+        200.0
+      ],
+      [
+        0.7071067811865476,
+        -2.7755575615628914e-17,
+        0.7071067811865476,
+        150.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "base_frame": "vendor_base_link",
+  "camera_frame": "android_camera_opencv",
+  "mounting": {
+    "position_mm": {
+      "x": 0,
+      "y": 200,
+      "z": 150
+    },
+    "orientation_deg": {
+      "yaw": -30,
+      "pitch": -45,
+      "roll": 0
+    },
+    "description": "Camera at arm base rear center, 20cm right, 15cm up. Looking forward-down-left."
+  },
+  "verified": false
+}

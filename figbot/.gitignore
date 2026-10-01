@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+node_modules/
+viewer/dist/
+tmp/
+*.FCStd1
+.DS_Store
+Thumbs.db
+software/android/figbot-scanner/.gradle/
+software/android/figbot-scanner/build/
+software/android/figbot-scanner/app/build/

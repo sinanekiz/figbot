@@ -1,0 +1,5 @@
+[
+  {"label": "dry_fig_collect", "confidence": 0.91, "box": [10, 10, 30, 30]},
+  {"label": "stone_avoid", "confidence": 0.72, "box": [40, 40, 55, 55]}
+]
+

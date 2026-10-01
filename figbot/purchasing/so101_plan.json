@@ -1,0 +1,246 @@
+{
+  "revision": "DEC-088",
+  "checked_date": "2026-09-18",
+  "scope": "Bir SO-101 follower kolu, 12 V C047 motorlar; leader, kamera ve mobil şasi kapsam dışı",
+  "sources": {
+    "upstream": "https://github.com/TheRobotStudio/SO-ARM100",
+    "assembly": "https://huggingface.co/docs/lerobot/so101",
+    "motor": "https://www.seeedstudio.com/STS3215-30KG-Serial-Servo-p-6340.html",
+    "datasheet": "https://files.seeedstudio.com/products/Feetech/108090003_FEETECH_ST-3215-C047-Datasheet.pdf",
+    "board": "https://www.waveshare.com/product/modules/motors-servos/bus-servo-adapter-a.htm",
+    "board_limits": "https://docs.waveshare.com/Bus_Servo_Adapter_A/FAQ",
+    "board_spec": "https://docs.waveshare.com/Bus_Servo_Adapter_A",
+    "kit": "https://www.seeedstudio.com/SO-101-Low-Cost-AI-Arm-Kit-Pro-p-6427.html",
+    "psu_candidate": "https://www.robotnom.com/urun/12-volt-5-amper-masatipi-adaptor-12v-5a-adaptor",
+    "samm_motor": "https://market.samm.com/serial-bus-yuksek-hassasiyetli-programlanabilir-servo-motor---30kg",
+    "waveshare_assembly": "https://www.waveshare.com/wiki/SO-ARM100/101_Kit_Aassembly"
+  },
+  "items": [
+    {
+      "id": "N01",
+      "group": "SİPARİŞ VERİLDİ",
+      "item": "Waveshare ST3215 12 V 30 kg.cm servo; SAMM 22414 / MP03422 katalog eslemesi",
+      "required": 6,
+      "buy_min": 0,
+      "buy_max": 0,
+      "unit": "adet",
+      "unit_price": null,
+      "currency": "TRY",
+      "source": "samm_motor",
+      "note": "6 motor SAMM siparisi kullanici tarafindan bildirildi. Tekrar alim yok. Fatura/odenen toplam gorulmedi; fiyat TBD. Resmi Waveshare SO101 follower alti ST3215 kullaniyor. Baslik, govde vidasi ve kablo sevkiyat icerigi teyit bekliyor.",
+      "ordered_quantity": 6,
+      "order_record_id": 69
+    },
+    {
+      "id": "N02",
+      "group": "KESİN EKSİK",
+      "item": "Waveshare Bus Servo Adapter (A), USB-C, SKU 25514",
+      "required": 1,
+      "buy_min": 1,
+      "buy_max": 1,
+      "unit": "adet",
+      "unit_price": 4.99,
+      "currency": "USD",
+      "source": "board",
+      "note": "PCA9685 yerine bu haberleşme adaptörü gerekir. USB-C veri kablosu dahil mi kontrol et. Kart üzerinden güç geçişi en fazla 5 A; regülatörü yok. Sayfa fiyatı; canlı stok/teslimat teyidi yok."
+    },
+    {
+      "id": "N03",
+      "group": "SATIN ALINDI",
+      "item": "Regüle, kapalı kasalı 12 V 5 A masa tipi güç kaynağı; DC 5,5×2,1 mm merkez artı veya uygun klemens bağlantısı",
+      "required": 1,
+      "buy_min": 0,
+      "buy_max": 0,
+      "unit": "adet",
+      "unit_price": 321.25,
+      "currency": "TRY",
+      "source": "psu_candidate",
+      "note": "1 adet 321,25 TL ile satın alındı — kullanıcı beyanı. Teslim durumu, satıcı, model, DC5521 fiş/kutuplama ve regüle çıkış doğrulanmadı. Tekrar alım yok. Motor besleme adaptörü; USB bus haberleşme kartından farklı parçadır.",
+      "ordered_quantity": 1,
+      "order_record_id": 70
+    },
+    {
+      "id": "N04",
+      "group": "PAKETTE YOKSA",
+      "item": "STS3215 uyumlu üç damarlı 5264-3P bus bağlantı kablosu",
+      "required": 6,
+      "buy_min": 0,
+      "buy_max": 6,
+      "unit": "adet",
+      "unit_price": null,
+      "currency": "USD",
+      "source": "datasheet",
+      "note": "5 motorlar arası + 1 karttan ilk motora. Motorla gelen kabloları kullan; boylar montaj güzergâhında kontrol edilecek. Eski PWM servo uzatmalarını soketi benziyor diye kullanma; pin dizilimi farklı olabilir."
+    },
+    {
+      "id": "N05",
+      "group": "PAKETTE YOKSA",
+      "item": "SO-101 uyumlu STS3215 motor başlıkları / horn takımı",
+      "required": 11,
+      "buy_min": 0,
+      "buy_max": 12,
+      "unit": "başlık",
+      "unit_price": null,
+      "currency": "USD",
+      "source": "assembly",
+      "note": "Kullanıcının gönderdiği ürün görselinde iki başlık (dişli ön ve serbest arka) var. Altı gerçek paket bu içerikle gelirse 12 başlık 11 ihtiyacı karşılar. Görsel, satıcıdan teslim edilecek paketin doğrulanması yerine geçmez."
+    },
+    {
+      "id": "N06",
+      "group": "ELDEKİNDEN KARŞILA",
+      "item": "M2×6 mm makine vidası, SO-101/STS3215 montaj başına uygun",
+      "required": 24,
+      "buy_min": 0,
+      "buy_max": 30,
+      "unit": "adet",
+      "unit_price": null,
+      "currency": "TRY",
+      "source": "assembly",
+      "note": "Kullanıcı önceki listedeki tüm vidaları toplam 600 TL vida/insert alımına dahil aldığını bildirdi. Yeni sipariş şimdilik yok; gereken baş tipi ve kalan adet mevcut vidalar ve motor paketinden kontrol edilir. Adet eksiği varsa yalnız eksik kadar tamamlanır."
+    },
+    {
+      "id": "N07",
+      "group": "ELDEKİNDEN KARŞILA",
+      "item": "M3×6 mm makine vidası, SO-101/STS3215 başlığına uygun",
+      "required": 50,
+      "buy_min": 0,
+      "buy_max": 60,
+      "unit": "adet",
+      "unit_price": null,
+      "currency": "TRY",
+      "source": "assembly",
+      "note": "Kullanıcı önceki listedeki tüm vidaları toplam 600 TL vida/insert alımına dahil aldığını bildirdi. Yeni sipariş şimdilik yok; gereken baş tipi ve kalan adet mevcut vidalar ve motor paketinden kontrol edilir. Adet eksiği varsa yalnız eksik kadar tamamlanır."
+    },
+    {
+      "id": "N08",
+      "group": "ELDE VAR",
+      "item": "USB-C veri kablosu, bilgisayar portuna uygun diğer uç",
+      "required": 1,
+      "buy_min": 0,
+      "buy_max": 0,
+      "unit": "adet",
+      "unit_price": null,
+      "currency": "TRY",
+      "source": "board_spec",
+      "note": "Kullanıcı 2026-09-17 tarihinde Type-C kablosu olduğunu bildirdi. Yeni alım yok; kartla veri aktarımı denenecek. Motorların 12 V beslemesinin yerine geçmez."
+    },
+    {
+      "id": "N09",
+      "group": "ELDE YOKSA",
+      "item": "SO-101 tabanı için masa sıkıştırma kelepçesi",
+      "required": 2,
+      "buy_min": 0,
+      "buy_max": 2,
+      "unit": "adet",
+      "unit_price": null,
+      "currency": "TRY",
+      "source": "upstream",
+      "note": "İlk testte tabanı sabitlemek için. Elde uygun kelepçe varsa kullan. Resmî basılı kelepçe seçeneği de var; masa kalınlığı ve gereken donanım kontrol edilmeden ayrı vida ölçüsü seçilmedi. Araca montaj bağlantıları ayrı tasarlanacak."
+    },
+    {
+      "id": "N10",
+      "group": "ELDE YOKSA",
+      "item": "Kol baskısı için uygun filament (upstream PLA+ önerir)",
+      "required": null,
+      "buy_min": 0,
+      "buy_max": null,
+      "unit": "g — dilimleyicide belirlenecek",
+      "unit_price": null,
+      "currency": "TRY",
+      "source": "upstream",
+      "note": "Yazıcı mevcut. Satın alma kaydındaki iki ürün tam makara değil, kısa PLA numune setleri. Kalan filament tartılmadan ve SO-101 dilimlenmeden miktar/maliyet kesinleşmez; sırf liste için yeni makara alma."
+    },
+    {
+      "id": "N11",
+      "group": "MONTAJDA DOĞRULA",
+      "item": "Kart sabitleme ve güç hattı tamamlama sarfı",
+      "required": null,
+      "buy_min": 0,
+      "buy_max": null,
+      "unit": "set — eksik kadar",
+      "unit_price": null,
+      "currency": "TRY",
+      "source": "board_spec",
+      "note": "Mevcut kablo bağı, 14 AWG kablo, XT60, makaron, yüksük ve sigorta yuvasını kullan. Kart montaj vidası, seçilen güç kaynağı fişi/AC kablosu ve koruma sigortasının değeri bağlantı seçimine göre TBD. Kayıtlı 7,5/10 A sigortalar 5 A kartı korur varsayılmaz."
+    }
+  ],
+  "fastener_audit": [
+    {
+      "joint": "J1 taban",
+      "m2x6": 6,
+      "m3x6": 9,
+      "horns": 2
+    },
+    {
+      "joint": "J2 omuz",
+      "m2x6": 4,
+      "m3x6": 9,
+      "horns": 2
+    },
+    {
+      "joint": "J3 dirsek",
+      "m2x6": 4,
+      "m3x6": 9,
+      "horns": 2
+    },
+    {
+      "joint": "J4 bilek eğim / bilek taşıyıcı bağlantısı",
+      "m2x6": 4,
+      "m3x6": 9,
+      "horns": 2
+    },
+    {
+      "joint": "J5 bilek dönüş / kıskaç gövde bağlantısı",
+      "m2x6": 2,
+      "m3x6": 5,
+      "horns": 1
+    },
+    {
+      "joint": "J6 kıskaç",
+      "m2x6": 4,
+      "m3x6": 9,
+      "horns": 2
+    }
+  ],
+  "notes": [
+    "Bu liste tek çalışan kol içindir. Leader kolu şimdilik alınmaz; ilk kalibrasyon ve bilgisayar komutları için zorunlu değildir. Videodaki elle diğer kolu yönlendirerek öğretme için leader gerekir. Mevcut MG motorlar açı geri bildirimi veren uyumlu leader yerine geçmez.",
+    "Standart SO-101 follower geometrisi korunur. Güncel baskı paketi GUNCEL/BASKI içinde DEC-088 olarak hazırlanır. Eski LINKA baskıları, rulmanları, omuzlu vidaları ve insert listesi bu modelin gereksinimi sayılmaz. Fiziksel montaj ve yük doğrulaması henüz yapılmadı.",
+    "Güç bütçesi: upstream 12 V model için 5 A+ kaynak önerir; seçilen Waveshare kartının sınırı 5 A'dır. C047 veri sayfasında motor başına nominal akım 0,9 A, kilitlenme akımı 2,7 A'dır. Altı motorun toplamı bu kartın sınırını aşabilir. Başlangıç masa kurulumu akımı sınırlanmış hareketler içindir; eşzamanlı yüksek yük/hız onayı yoktur. Daha büyük adaptörü aynı karttan geçirmek çözüm değildir; gerekirse ayrı sigortalı güç dağıtımı ayrıca boyutlandırılır.",
+    "Mevcut 12 V 9 Ah akü korunur fakat yeniden kullanım koşulludur: kutup ve dönüştürücü giriş/çıkış gerilimleri yük altında karşılaştırılacak. Önceki 5 V'tan 2 V'a düşüşün kaynağı kesinleşmedi. Akü 12,6 V ölçüldü diye yük kapasitesi kanıtlanmaz. Şarjdayken bu karta doğrudan bağlanmaz; şarj gerilimi kartın 12,6 V sınırını aşabilir. Mobil besleme düzeni PHYSICAL VALIDATION REQUIRED.",
+    "XL4016 yükseltici değildir; 12 V aküden bütün deşarj boyunca regüle 12 V sağlayacağı varsayılamaz. Mevcut 4700 µF/10 V kondansatörler 12 V motor hattında kullanılmaz. INA219 3,2 A kartları tüm kolun ana akım yoluna konmaz.",
+    "Acil durdurma düğmesi ve otomotiv rölesi elde var. Uygun DC kontak değeri, röle soketi/pabuç bağlantısı ve devre doğrulanarak değerlendirilecek; düğmenin küçük kontaklarına motor akımı doğrudan yüklenmez. Mevcut parçaların bulunması doğrulanmış acil durdurma devresi anlamına gelmez.",
+    "Yeni kamera, Jetson, Raspberry Pi, Bluetooth, UNO ve PCA9685 ilk kol testinin satın alma listesinde yok. Mevcut bilgisayar kullanılacak. Otonom incir toplama için algılama/işlemci, dış ortam koruması ve araç montajı ayrı kapsamdır.",
+    "Fiyatlar 2026-09-17 araştırmasındaki ürün sayfası/arama dizini değerleridir; teklif veya Türkiye'ye teslim toplamı değildir. Nakliye, vergiler, kur dönüşümü, filament ve diğer koşullu aksesuarlar ayrıca bilinmiyor. 10+ motor fiyatını altı motor hesabında kullanmadık. Tam leader+follower kitinin bedeli bu listeye eklenmez; alternatif alım yoludur.",
+    "2026-09-17 kullanıcı güncellemesi: önceki tüm vidalar ve pirinç insertler 600 TL toplu bedelle alındı; Type-C kablo mevcut. Yeni vida/insert/kablo siparişi yapılmaz; mevcut vidaların baş tipi ve adedi montaj ihtiyacına karşı sayılır. Fotoğrafta iki servo başlığı var; gerçek altı motor paketi aynı içerikle gelirse başlık eksiği yoktur.",
+    "2026-09-18: Altı motor sipariş edildi; bedel ve kesin varyant TBD. 12 V 5 A masa adaptörü 1 adet 321,25 TL satın alındı. USB bus adaptör kartının alındığı henüz bildirilmedi.",
+    "SAMM supplier confirmed 2026-09-18. 22414 catalog matches ST3215 12 V used by official Waveshare SO101 follower. Existing nominal prints may proceed before arrival; physical fit is not measured. Use pointed screws from motor package for case mounting; existing M2 machine screws are not automatically equivalent."
+  ],
+  "supplier_comparison_markdown": "purchasing/SO101_TEDARIKCI_KARSILASTIRMASI.md",
+  "supplier_scenarios": [
+    {
+      "name": "SAMM yerel muadil aday — paket ve C047 uyumu teyit bekler",
+      "checked_date": "2026-09-17",
+      "lines": [
+        {
+          "item": "Waveshare 22414",
+          "quantity": 6,
+          "unit_price": 1649.95,
+          "currency": "TRY",
+          "url": "https://market.samm.com/serial-bus-yuksek-hassasiyetli-programlanabilir-servo-motor---30kg",
+          "observed_stock": 12
+        },
+        {
+          "item": "Waveshare 25514",
+          "quantity": 1,
+          "unit_price": 321.23,
+          "currency": "TRY",
+          "url": "https://market.samm.com/seri-bus-servo-surucu-ve-kontrol-karti",
+          "observed_stock": 54
+        }
+      ],
+      "package_complete": false,
+      "compatibility": "UNVERIFIED C047 equivalence / horn package",
+      "shipping_note": "Site 1500 TL üzeri ücretsiz kargo bildiriyor; nihai ödeme doğrulanmadı."
+    }
+  ]
+}

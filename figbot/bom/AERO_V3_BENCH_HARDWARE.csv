@@ -1,0 +1,23 @@
+﻿item,qty,unit,unit_try_incl_vat,price_source,note
+MG996R,4,servo,225.405,User order: 4 for 901.62 TRY incl VAT,Existing purchased stock; four per arm
+MG90S,2,servo,116.935,User orders: 116.19 + 117.68 TRY incl VAT,Existing two purchased units; G1 + W1
+Aluminium tube 20x20x1.5 - 235 mm,1,piece,,TBD,Upper tube; verify coupon and cut/drill to drawing
+Aluminium tube 20x20x1.5 - 161 mm,1,piece,,TBD,Fore tube; verify coupon and cut/drill to drawing
+M3x16 machine screw,24,piece,,TBD,Four servo-clamp bolts per actuator
+M3x30 machine screw,2,piece,,TBD,Removable wrist drive plate to palm
+M3 locking nut,26,piece,,TBD,Servo clamps + wrist plate
+M3 washer,52,piece,,TBD,Two per M3 bolt
+M4x35 machine screw,8,piece,,TBD,Four drilled holes per aluminium tube
+M4x20 machine screw,8,piece,,TBD,Four yaw-deck joints + four base mounts to 6 mm plate; bench board thickness changes mount length
+M4x12 axle screw,2,piece,,TBD,Captive nut + printed journal sleeve; J3 and W1
+M4 locking nut,16,piece,,TBD,Tube and base joints
+M4 regular hex nut,2,piece,,TBD,"Side-loaded idler traps: nominal 7 mm AF, 3.2 mm thick; verify actual nut"
+M4 washer,32,piece,,TBD,Tube and base joints; idler thrust washers are PRINTED
+M2x10 coupling screw,14,piece,,TBD,Up to 4 each J2L/J2R/J3; 2 W1. Validate supplied horn hole pitch
+M2x12 coupling screw,4,piece,,TBD,J1 recessed head pockets; validate horn stack before tightening
+M2x20 coupling screw,2,piece,,TBD,G1 moving jaw; validate horn stack
+M2 nut,20,piece,,TBD,Horn couplings; actual supplied horn may accept only two opposite holes
+M2 washer,40,piece,,TBD,Horn couplings
+Supplied servo horn + original centre screw,6,set,,Included with actuator; confirm contents,Never print the spline; use the matching horn from each servo
+Soft pad 3 mm - fixed 12x12 / moving 12x12,2,piece,,TBD,Foam/silicone candidate; food contact and adhesion unverified
+PETG filament,1,job,,TBD,Mass from slicer; supports and failed prints not included

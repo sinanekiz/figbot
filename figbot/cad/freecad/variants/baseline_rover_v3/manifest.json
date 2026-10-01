@@ -1,0 +1,3076 @@
+{
+  "parts": [
+    {
+      "id": "Component000",
+      "name": "chassis rail -285",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "000.brep",
+      "volume": 585000.0
+    },
+    {
+      "id": "Component001",
+      "name": "chassis rail 285",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "001.brep",
+      "volume": 585000.0
+    },
+    {
+      "id": "Component002",
+      "name": "chassis crossmember -310",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "002.brep",
+      "volume": 540000.0
+    },
+    {
+      "id": "Component003",
+      "name": "chassis crossmember 0",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "003.brep",
+      "volume": 540000.0
+    },
+    {
+      "id": "Component004",
+      "name": "chassis crossmember 310",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "004.brep",
+      "volume": 540000.0
+    },
+    {
+      "id": "Component005",
+      "name": "equipment deck",
+      "group": "vehicle",
+      "color": [
+        0.66,
+        0.69,
+        0.7
+      ],
+      "brep": "005.brep",
+      "volume": 2032631.9999999998
+    },
+    {
+      "id": "Component006",
+      "name": "rear bearing outrigger R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "006.brep",
+      "volume": 276000.0
+    },
+    {
+      "id": "Component007",
+      "name": "rear shelf gusset R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "007.brep",
+      "volume": 11900.0
+    },
+    {
+      "id": "Component008",
+      "name": "rear motor cradle R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "008.brep",
+      "volume": 68792.5139300595
+    },
+    {
+      "id": "Component009",
+      "name": "rear DC motor R",
+      "group": "drive",
+      "color": [
+        0.16,
+        0.38,
+        0.52
+      ],
+      "brep": "009.brep",
+      "volume": 117809.72450961727
+    },
+    {
+      "id": "Component010",
+      "name": "rear gearbox R",
+      "group": "drive",
+      "color": [
+        0.16,
+        0.38,
+        0.52
+      ],
+      "brep": "010.brep",
+      "volume": 148712.38898038468
+    },
+    {
+      "id": "Component011",
+      "name": "rear motor retaining strap R",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "011.brep",
+      "volume": 4995.132319207765
+    },
+    {
+      "id": "Component012",
+      "name": "motor mount bolt R 140",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "012.brep",
+      "volume": 314.15926535897927
+    },
+    {
+      "id": "Component013",
+      "name": "motor mount bolt R 180",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "013.brep",
+      "volume": 314.15926535897927
+    },
+    {
+      "id": "Component014",
+      "name": "motor mount bolt R 235",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "014.brep",
+      "volume": 314.15926535897927
+    },
+    {
+      "id": "Component015",
+      "name": "rear motor output shaft R",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "015.brep",
+      "volume": 3958.406743523139
+    },
+    {
+      "id": "Component016",
+      "name": "rear shaft coupling R",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "016.brep",
+      "volume": 20728.228328385452
+    },
+    {
+      "id": "Component017",
+      "name": "rear supported axle R",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "017.brep",
+      "volume": 53037.73671862355
+    },
+    {
+      "id": "Component018",
+      "name": "rear drive key R",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "018.brep",
+      "volume": 1368.0
+    },
+    {
+      "id": "Component019",
+      "name": "bearing mount bolt R 320 -247",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "019.brep",
+      "volume": 480.66367599923876
+    },
+    {
+      "id": "Component020",
+      "name": "bearing mount bolt R 320 -193",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "020.brep",
+      "volume": 480.66367599923876
+    },
+    {
+      "id": "Component021",
+      "name": "rear bearing housing R 320",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "021.brep",
+      "volume": 33611.989664393404
+    },
+    {
+      "id": "Component022",
+      "name": "rear bearing insert R 320",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "022.brep",
+      "volume": 12855.397138489432
+    },
+    {
+      "id": "Component023",
+      "name": "bearing mount bolt R 365 -247",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "023.brep",
+      "volume": 480.66367599923876
+    },
+    {
+      "id": "Component024",
+      "name": "bearing mount bolt R 365 -193",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "024.brep",
+      "volume": 480.66367599923876
+    },
+    {
+      "id": "Component025",
+      "name": "rear bearing housing R 365",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "025.brep",
+      "volume": 33611.989664393404
+    },
+    {
+      "id": "Component026",
+      "name": "rear bearing insert R 365",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "026.brep",
+      "volume": 12855.397138489432
+    },
+    {
+      "id": "Component027",
+      "name": "arm support outrigger R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "027.brep",
+      "volume": 150000.0
+    },
+    {
+      "id": "Component028",
+      "name": "arm support upright R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "028.brep",
+      "volume": 142200.0
+    },
+    {
+      "id": "Component029",
+      "name": "arm top longitudinal rail R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "029.brep",
+      "volume": 118800.0
+    },
+    {
+      "id": "Component030",
+      "name": "arm mount R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "030.brep",
+      "volume": 150818.2964925888
+    },
+    {
+      "id": "Component031",
+      "name": "arm mount cross tie R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "031.brep",
+      "volume": 32000.0
+    },
+    {
+      "id": "Component032",
+      "name": "arm support gusset R -356",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "032.brep",
+      "volume": 14850.000000000002
+    },
+    {
+      "id": "Component033",
+      "name": "arm support gusset R -374",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "033.brep",
+      "volume": 14850.000000000002
+    },
+    {
+      "id": "Component034",
+      "name": "front kingpin support stem R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "034.brep",
+      "volume": 29970.793915246617
+    },
+    {
+      "id": "Component035",
+      "name": "front fixed carrier R",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "035.brep",
+      "volume": 35568.0
+    },
+    {
+      "id": "Component036",
+      "name": "front kingpin bearing carrier R 98",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "036.brep",
+      "volume": 14247.074338430053
+    },
+    {
+      "id": "Component037",
+      "name": "front kingpin bearing carrier R 156",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "037.brep",
+      "volume": 14247.074338430053
+    },
+    {
+      "id": "Component038",
+      "name": "front kingpin R",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "038.brep",
+      "volume": 17291.325965358214
+    },
+    {
+      "id": "Component039",
+      "name": "front steering knuckle R",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "039.brep",
+      "volume": 26037.734999852215
+    },
+    {
+      "id": "Component040",
+      "name": "front spindle R",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "040.brep",
+      "volume": 23876.10416728242
+    },
+    {
+      "id": "Component041",
+      "name": "front hub bearing R 400",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "041.brep",
+      "volume": 6479.534848028952
+    },
+    {
+      "id": "Component042",
+      "name": "front hub bearing R 430",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "042.brep",
+      "volume": 6479.534848028952
+    },
+    {
+      "id": "Component043",
+      "name": "front steering arm R",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "043.brep",
+      "volume": 19229.34852459441
+    },
+    {
+      "id": "Component044",
+      "name": "front tie rod ball R",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "044.brep",
+      "volume": 5575.279762570685
+    },
+    {
+      "id": "Component045",
+      "name": "wheel RR",
+      "group": "wheel",
+      "color": [
+        0.1,
+        0.13,
+        0.15
+      ],
+      "brep": "045.brep",
+      "volume": 1828849.2201511848
+    },
+    {
+      "id": "Component046",
+      "name": "rim RR",
+      "group": "running gear",
+      "color": [
+        0.72,
+        0.77,
+        0.79
+      ],
+      "brep": "046.brep",
+      "volume": 314058.0684070323
+    },
+    {
+      "id": "Component047",
+      "name": "hub RR",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "047.brep",
+      "volume": 121388.62002933309
+    },
+    {
+      "id": "Component048",
+      "name": "wheel bolts RR",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "048.brep",
+      "volume": 2940.5307237600464
+    },
+    {
+      "id": "Component049",
+      "name": "axle washer RR",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "049.brep",
+      "volume": 1470.2653618800227
+    },
+    {
+      "id": "Component050",
+      "name": "axle nut RR",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "050.brep",
+      "volume": 2785.0350969366673
+    },
+    {
+      "id": "Component051",
+      "name": "wheel FR",
+      "group": "wheel",
+      "color": [
+        0.1,
+        0.13,
+        0.15
+      ],
+      "brep": "051.brep",
+      "volume": 1828849.2201511846
+    },
+    {
+      "id": "Component052",
+      "name": "rim FR",
+      "group": "running gear",
+      "color": [
+        0.72,
+        0.77,
+        0.79
+      ],
+      "brep": "052.brep",
+      "volume": 314058.0684025435
+    },
+    {
+      "id": "Component053",
+      "name": "hub FR",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "053.brep",
+      "volume": 89747.44813142643
+    },
+    {
+      "id": "Component054",
+      "name": "wheel bolts FR",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "054.brep",
+      "volume": 2940.530723760045
+    },
+    {
+      "id": "Component055",
+      "name": "axle washer FR",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "055.brep",
+      "volume": 1470.265361880024
+    },
+    {
+      "id": "Component056",
+      "name": "axle nut FR",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "056.brep",
+      "volume": 2785.035096936671
+    },
+    {
+      "id": "Component057",
+      "name": "rear bearing outrigger L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "057.brep",
+      "volume": 276000.0
+    },
+    {
+      "id": "Component058",
+      "name": "rear shelf gusset L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "058.brep",
+      "volume": 11900.000000000002
+    },
+    {
+      "id": "Component059",
+      "name": "rear motor cradle L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "059.brep",
+      "volume": 68792.5139300595
+    },
+    {
+      "id": "Component060",
+      "name": "rear DC motor L",
+      "group": "drive",
+      "color": [
+        0.16,
+        0.38,
+        0.52
+      ],
+      "brep": "060.brep",
+      "volume": 117809.72450961727
+    },
+    {
+      "id": "Component061",
+      "name": "rear gearbox L",
+      "group": "drive",
+      "color": [
+        0.16,
+        0.38,
+        0.52
+      ],
+      "brep": "061.brep",
+      "volume": 148712.38898038468
+    },
+    {
+      "id": "Component062",
+      "name": "rear motor retaining strap L",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "062.brep",
+      "volume": 4995.132319207765
+    },
+    {
+      "id": "Component063",
+      "name": "motor mount bolt L 140",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "063.brep",
+      "volume": 314.15926535897927
+    },
+    {
+      "id": "Component064",
+      "name": "motor mount bolt L 180",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "064.brep",
+      "volume": 314.15926535897927
+    },
+    {
+      "id": "Component065",
+      "name": "motor mount bolt L 235",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "065.brep",
+      "volume": 314.15926535897927
+    },
+    {
+      "id": "Component066",
+      "name": "rear motor output shaft L",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "066.brep",
+      "volume": 3958.406743523139
+    },
+    {
+      "id": "Component067",
+      "name": "rear shaft coupling L",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "067.brep",
+      "volume": 20728.22832838545
+    },
+    {
+      "id": "Component068",
+      "name": "rear supported axle L",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "068.brep",
+      "volume": 53037.736718623535
+    },
+    {
+      "id": "Component069",
+      "name": "rear drive key L",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "069.brep",
+      "volume": 1368.0
+    },
+    {
+      "id": "Component070",
+      "name": "bearing mount bolt L 320 -247",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "070.brep",
+      "volume": 480.66367599923876
+    },
+    {
+      "id": "Component071",
+      "name": "bearing mount bolt L 320 -193",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "071.brep",
+      "volume": 480.66367599923876
+    },
+    {
+      "id": "Component072",
+      "name": "rear bearing housing L 320",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "072.brep",
+      "volume": 33611.989664393404
+    },
+    {
+      "id": "Component073",
+      "name": "rear bearing insert L 320",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "073.brep",
+      "volume": 12855.397138489432
+    },
+    {
+      "id": "Component074",
+      "name": "bearing mount bolt L 365 -247",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "074.brep",
+      "volume": 480.66367599923876
+    },
+    {
+      "id": "Component075",
+      "name": "bearing mount bolt L 365 -193",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "075.brep",
+      "volume": 480.66367599923876
+    },
+    {
+      "id": "Component076",
+      "name": "rear bearing housing L 365",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "076.brep",
+      "volume": 33611.989664393404
+    },
+    {
+      "id": "Component077",
+      "name": "rear bearing insert L 365",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "077.brep",
+      "volume": 12855.397138489432
+    },
+    {
+      "id": "Component078",
+      "name": "arm support outrigger L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "078.brep",
+      "volume": 150000.0
+    },
+    {
+      "id": "Component079",
+      "name": "arm support upright L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "079.brep",
+      "volume": 142200.0
+    },
+    {
+      "id": "Component080",
+      "name": "arm top longitudinal rail L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "080.brep",
+      "volume": 118800.0
+    },
+    {
+      "id": "Component081",
+      "name": "arm mount L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "081.brep",
+      "volume": 150818.2964925888
+    },
+    {
+      "id": "Component082",
+      "name": "arm mount cross tie L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "082.brep",
+      "volume": 32000.0
+    },
+    {
+      "id": "Component083",
+      "name": "arm support gusset L 356",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "083.brep",
+      "volume": 14850.000000000002
+    },
+    {
+      "id": "Component084",
+      "name": "arm support gusset L 374",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "084.brep",
+      "volume": 14850.000000000002
+    },
+    {
+      "id": "Component085",
+      "name": "front kingpin support stem L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "085.brep",
+      "volume": 29970.793915246617
+    },
+    {
+      "id": "Component086",
+      "name": "front fixed carrier L",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "086.brep",
+      "volume": 35568.0
+    },
+    {
+      "id": "Component087",
+      "name": "front kingpin bearing carrier L 98",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "087.brep",
+      "volume": 14247.074338430048
+    },
+    {
+      "id": "Component088",
+      "name": "front kingpin bearing carrier L 156",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "088.brep",
+      "volume": 14247.074338430048
+    },
+    {
+      "id": "Component089",
+      "name": "front kingpin L",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "089.brep",
+      "volume": 17291.325965358214
+    },
+    {
+      "id": "Component090",
+      "name": "front steering knuckle L",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "090.brep",
+      "volume": 26037.734999852215
+    },
+    {
+      "id": "Component091",
+      "name": "front spindle L",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "091.brep",
+      "volume": 23876.10416728242
+    },
+    {
+      "id": "Component092",
+      "name": "front hub bearing L 400",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "092.brep",
+      "volume": 6479.534848028952
+    },
+    {
+      "id": "Component093",
+      "name": "front hub bearing L 430",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "093.brep",
+      "volume": 6479.534848028952
+    },
+    {
+      "id": "Component094",
+      "name": "front steering arm L",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "094.brep",
+      "volume": 19229.34852459441
+    },
+    {
+      "id": "Component095",
+      "name": "front tie rod ball L",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "095.brep",
+      "volume": 5575.279762570685
+    },
+    {
+      "id": "Component096",
+      "name": "wheel RL",
+      "group": "wheel",
+      "color": [
+        0.1,
+        0.13,
+        0.15
+      ],
+      "brep": "096.brep",
+      "volume": 1828849.2201511848
+    },
+    {
+      "id": "Component097",
+      "name": "rim RL",
+      "group": "running gear",
+      "color": [
+        0.72,
+        0.77,
+        0.79
+      ],
+      "brep": "097.brep",
+      "volume": 314058.0684070323
+    },
+    {
+      "id": "Component098",
+      "name": "hub RL",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "098.brep",
+      "volume": 121388.62002933309
+    },
+    {
+      "id": "Component099",
+      "name": "wheel bolts RL",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "099.brep",
+      "volume": 2940.5307237600464
+    },
+    {
+      "id": "Component100",
+      "name": "axle washer RL",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "100.brep",
+      "volume": 1470.2653618800227
+    },
+    {
+      "id": "Component101",
+      "name": "axle nut RL",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "101.brep",
+      "volume": 2785.0350969366673
+    },
+    {
+      "id": "Component102",
+      "name": "wheel FL",
+      "group": "wheel",
+      "color": [
+        0.1,
+        0.13,
+        0.15
+      ],
+      "brep": "102.brep",
+      "volume": 1828849.2201511846
+    },
+    {
+      "id": "Component103",
+      "name": "rim FL",
+      "group": "running gear",
+      "color": [
+        0.72,
+        0.77,
+        0.79
+      ],
+      "brep": "103.brep",
+      "volume": 314058.0684025435
+    },
+    {
+      "id": "Component104",
+      "name": "hub FL",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "104.brep",
+      "volume": 89747.44813142643
+    },
+    {
+      "id": "Component105",
+      "name": "wheel bolts FL",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "105.brep",
+      "volume": 2940.530723760045
+    },
+    {
+      "id": "Component106",
+      "name": "axle washer FL",
+      "group": "running gear",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "106.brep",
+      "volume": 1470.265361880024
+    },
+    {
+      "id": "Component107",
+      "name": "axle nut FL",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "107.brep",
+      "volume": 2785.035096936671
+    },
+    {
+      "id": "Component108",
+      "name": "front upper bridge",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "108.brep",
+      "volume": 312000.0
+    },
+    {
+      "id": "Component109",
+      "name": "front steering tie rod",
+      "group": "steering",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "109.brep",
+      "volume": 72204.88715356494
+    },
+    {
+      "id": "Component110",
+      "name": "steering actuator body envelope",
+      "group": "steering",
+      "color": [
+        0.16,
+        0.38,
+        0.52
+      ],
+      "brep": "110.brep",
+      "volume": 209375.70899940177
+    },
+    {
+      "id": "Component111",
+      "name": "steering actuator pushrod",
+      "group": "steering",
+      "color": [
+        0.64,
+        0.69,
+        0.73
+      ],
+      "brep": "111.brep",
+      "volume": 27178.577610499247
+    },
+    {
+      "id": "Component112",
+      "name": "steering actuator fixed bracket",
+      "group": "running gear",
+      "color": [
+        0.29,
+        0.36,
+        0.4
+      ],
+      "brep": "112.brep",
+      "volume": 77400.0
+    },
+    {
+      "id": "Component113",
+      "name": "steering actuator pivot pin",
+      "group": "running gear",
+      "color": [
+        0.85,
+        0.54,
+        0.18
+      ],
+      "brep": "113.brep",
+      "volume": 1507.9644737231015
+    },
+    {
+      "id": "Component114",
+      "name": "basket floor 15deg",
+      "group": "basket",
+      "color": [
+        0.68,
+        0.35,
+        0.18
+      ],
+      "brep": "114.brep",
+      "volume": 2375999.9999999963
+    },
+    {
+      "id": "Component115",
+      "name": "basket side -330.0",
+      "group": "basket",
+      "color": [
+        0.83,
+        0.49,
+        0.25
+      ],
+      "brep": "115.brep",
+      "volume": 386999.99999999994
+    },
+    {
+      "id": "Component116",
+      "name": "basket side 330.0",
+      "group": "basket",
+      "color": [
+        0.83,
+        0.49,
+        0.25
+      ],
+      "brep": "116.brep",
+      "volume": 386999.99999999994
+    },
+    {
+      "id": "Component117",
+      "name": "basket padded rear wall",
+      "group": "basket",
+      "color": [
+        0.31,
+        0.5,
+        0.37
+      ],
+      "brep": "117.brep",
+      "volume": 712800.0
+    },
+    {
+      "id": "Component118",
+      "name": "front catch apron",
+      "group": "basket",
+      "color": [
+        0.88,
+        0.63,
+        0.34
+      ],
+      "brep": "118.brep",
+      "volume": 376200.00000000006
+    },
+    {
+      "id": "Component119",
+      "name": "basket support -240 -250",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "119.brep",
+      "volume": 21643.496365466548
+    },
+    {
+      "id": "Component120",
+      "name": "basket support -240 250",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "120.brep",
+      "volume": 21643.496365466548
+    },
+    {
+      "id": "Component121",
+      "name": "basket support 270 -250",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "121.brep",
+      "volume": 87784.07502516487
+    },
+    {
+      "id": "Component122",
+      "name": "basket support 270 250",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "122.brep",
+      "volume": 87784.07502516487
+    },
+    {
+      "id": "Component123",
+      "name": "battery envelope",
+      "group": "equipment",
+      "color": [
+        0.2,
+        0.43,
+        0.32
+      ],
+      "brep": "123.brep",
+      "volume": 1800000.0
+    },
+    {
+      "id": "Component124",
+      "name": "computer enclosure envelope",
+      "group": "equipment",
+      "color": [
+        0.15,
+        0.38,
+        0.5
+      ],
+      "brep": "124.brep",
+      "volume": 1680000.0
+    },
+    {
+      "id": "Component125",
+      "name": "power electronics envelope",
+      "group": "equipment",
+      "color": [
+        0.4,
+        0.3,
+        0.55
+      ],
+      "brep": "125.brep",
+      "volume": 770000.0000000001
+    },
+    {
+      "id": "Component126",
+      "name": "front camera riser",
+      "group": "vehicle",
+      "color": [
+        0.28,
+        0.33,
+        0.36
+      ],
+      "brep": "126.brep",
+      "volume": 62919.99999999999
+    },
+    {
+      "id": "Component127",
+      "name": "camera body envelope",
+      "group": "camera",
+      "color": [
+        0.1,
+        0.16,
+        0.2
+      ],
+      "brep": "127.brep",
+      "volume": 198000.0
+    },
+    {
+      "id": "Component128",
+      "name": "camera lens",
+      "group": "camera",
+      "color": [
+        0.18,
+        0.54,
+        0.69
+      ],
+      "brep": "128.brep",
+      "volume": 5309.29158456675
+    },
+    {
+      "id": "Component129",
+      "name": "L yaw base",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "129.brep",
+      "volume": 121690.24771870204
+    },
+    {
+      "id": "Component130",
+      "name": "L yaw thrust washer",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "130.brep",
+      "volume": 1889.982140399628
+    },
+    {
+      "id": "Component131",
+      "name": "L yaw deck",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "131.brep",
+      "volume": 54861.330140165395
+    },
+    {
+      "id": "Component132",
+      "name": "L J1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "132.brep",
+      "volume": 36476.547634325856
+    },
+    {
+      "id": "Component133",
+      "name": "L J1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "133.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component134",
+      "name": "L J1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "134.brep",
+      "volume": 778.957898457589
+    },
+    {
+      "id": "Component135",
+      "name": "L J1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "135.brep",
+      "volume": 712.5164636502614
+    },
+    {
+      "id": "Component136",
+      "name": "L J1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "136.brep",
+      "volume": 712.5164636502612
+    },
+    {
+      "id": "Component137",
+      "name": "L shoulder yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "137.brep",
+      "volume": 57740.7427248144
+    },
+    {
+      "id": "Component138",
+      "name": "L J2 -1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "138.brep",
+      "volume": 36476.54763432585
+    },
+    {
+      "id": "Component139",
+      "name": "L J2 -1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "139.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component140",
+      "name": "L J2 -1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "140.brep",
+      "volume": 778.9578984575878
+    },
+    {
+      "id": "Component141",
+      "name": "L J2 -1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "141.brep",
+      "volume": 712.5164636502614
+    },
+    {
+      "id": "Component142",
+      "name": "L J2 -1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "142.brep",
+      "volume": 712.5164636502612
+    },
+    {
+      "id": "Component143",
+      "name": "L J2 1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "143.brep",
+      "volume": 36476.547634325856
+    },
+    {
+      "id": "Component144",
+      "name": "L J2 1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "144.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component145",
+      "name": "L J2 1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "145.brep",
+      "volume": 778.9578984575876
+    },
+    {
+      "id": "Component146",
+      "name": "L J2 1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "146.brep",
+      "volume": 712.5164636502616
+    },
+    {
+      "id": "Component147",
+      "name": "L J2 1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "147.brep",
+      "volume": 712.5164636502614
+    },
+    {
+      "id": "Component148",
+      "name": "L upper hub",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "148.brep",
+      "volume": 40976.13173326366
+    },
+    {
+      "id": "Component149",
+      "name": "L upper hollow tube",
+      "group": "tube",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "149.brep",
+      "volume": 25894.14824629431
+    },
+    {
+      "id": "Component150",
+      "name": "L elbow yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "150.brep",
+      "volume": 36005.84825913791
+    },
+    {
+      "id": "Component151",
+      "name": "L J3 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "151.brep",
+      "volume": 36476.54763432584
+    },
+    {
+      "id": "Component152",
+      "name": "L J3 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "152.brep",
+      "volume": 123.1504320207182
+    },
+    {
+      "id": "Component153",
+      "name": "L J3 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "153.brep",
+      "volume": 778.9578984575917
+    },
+    {
+      "id": "Component154",
+      "name": "L J3 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "154.brep",
+      "volume": 712.5164636502561
+    },
+    {
+      "id": "Component155",
+      "name": "L J3 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "155.brep",
+      "volume": 712.516463650263
+    },
+    {
+      "id": "Component156",
+      "name": "L fore hub",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "156.brep",
+      "volume": 42794.29243919471
+    },
+    {
+      "id": "Component157",
+      "name": "L J3 sleeve",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "157.brep",
+      "volume": 82.5139310465355
+    },
+    {
+      "id": "Component158",
+      "name": "L J3 thrust washer 0",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "158.brep",
+      "volume": 37.09592605358857
+    },
+    {
+      "id": "Component159",
+      "name": "L J3 thrust washer 1",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "159.brep",
+      "volume": 37.09592605358857
+    },
+    {
+      "id": "Component160",
+      "name": "L J3 M4x12 axle bolt",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "160.brep",
+      "volume": 258.5530753904407
+    },
+    {
+      "id": "Component161",
+      "name": "L J3 M4 captive nut",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "161.brep",
+      "volume": 91.36107868445926
+    },
+    {
+      "id": "Component162",
+      "name": "L fore hollow tube",
+      "group": "tube",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "162.brep",
+      "volume": 17680.148246294564
+    },
+    {
+      "id": "Component163",
+      "name": "L wrist yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "163.brep",
+      "volume": 29942.419425728698
+    },
+    {
+      "id": "Component164",
+      "name": "L W1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "164.brep",
+      "volume": 8725.096029103699
+    },
+    {
+      "id": "Component165",
+      "name": "L W1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "165.brep",
+      "volume": 62.831853071796004
+    },
+    {
+      "id": "Component166",
+      "name": "L W1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "166.brep",
+      "volume": 503.75438200312266
+    },
+    {
+      "id": "Component167",
+      "name": "L W1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "167.brep",
+      "volume": 555.0164636502633
+    },
+    {
+      "id": "Component168",
+      "name": "L W1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "168.brep",
+      "volume": 555.0164636502614
+    },
+    {
+      "id": "Component169",
+      "name": "L wrist palm fixed jaw",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "169.brep",
+      "volume": 38159.464197823945
+    },
+    {
+      "id": "Component170",
+      "name": "L wrist drive plate",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "170.brep",
+      "volume": 3847.9483458229147
+    },
+    {
+      "id": "Component171",
+      "name": "L wrist M3x30 joining bolt -14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "171.brep",
+      "volume": 285.9477633297424
+    },
+    {
+      "id": "Component172",
+      "name": "L wrist M3 washer (-14, -8.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "172.brep",
+      "volume": 15.221016406642464
+    },
+    {
+      "id": "Component173",
+      "name": "L wrist M3 washer (-14, 12.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "173.brep",
+      "volume": 15.221016406642464
+    },
+    {
+      "id": "Component174",
+      "name": "L wrist M3 locking nut -14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "174.brep",
+      "volume": 72.59101925953358
+    },
+    {
+      "id": "Component175",
+      "name": "L wrist M3x30 joining bolt 14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "175.brep",
+      "volume": 285.9477633297424
+    },
+    {
+      "id": "Component176",
+      "name": "L wrist M3 washer (14, -8.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "176.brep",
+      "volume": 15.221016406642464
+    },
+    {
+      "id": "Component177",
+      "name": "L wrist M3 washer (14, 12.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "177.brep",
+      "volume": 15.221016406642464
+    },
+    {
+      "id": "Component178",
+      "name": "L wrist M3 locking nut 14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "178.brep",
+      "volume": 72.59101925953358
+    },
+    {
+      "id": "Component179",
+      "name": "L W1 sleeve",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "179.brep",
+      "volume": 82.51393104653705
+    },
+    {
+      "id": "Component180",
+      "name": "L W1 thrust washer 0",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "180.brep",
+      "volume": 37.09592605358827
+    },
+    {
+      "id": "Component181",
+      "name": "L W1 thrust washer 1",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "181.brep",
+      "volume": 37.09592605358827
+    },
+    {
+      "id": "Component182",
+      "name": "L W1 M4x12 axle bolt",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "182.brep",
+      "volume": 258.5530753904395
+    },
+    {
+      "id": "Component183",
+      "name": "L W1 M4 captive nut",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "183.brep",
+      "volume": 91.3610786844584
+    },
+    {
+      "id": "Component184",
+      "name": "L G1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "184.brep",
+      "volume": 8725.096029103686
+    },
+    {
+      "id": "Component185",
+      "name": "L G1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "185.brep",
+      "volume": 62.8318530717957
+    },
+    {
+      "id": "Component186",
+      "name": "L G1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "186.brep",
+      "volume": 503.7543820031216
+    },
+    {
+      "id": "Component187",
+      "name": "L G1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "187.brep",
+      "volume": 555.0164636502593
+    },
+    {
+      "id": "Component188",
+      "name": "L G1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "188.brep",
+      "volume": 555.0164636502593
+    },
+    {
+      "id": "Component189",
+      "name": "L moving jaw",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "189.brep",
+      "volume": 4998.253622588665
+    },
+    {
+      "id": "Component190",
+      "name": "L fixed soft pad",
+      "group": "pad",
+      "color": [
+        0.18,
+        0.48,
+        0.3
+      ],
+      "brep": "190.brep",
+      "volume": 432.0
+    },
+    {
+      "id": "Component191",
+      "name": "L moving soft pad",
+      "group": "pad",
+      "color": [
+        0.18,
+        0.48,
+        0.3
+      ],
+      "brep": "191.brep",
+      "volume": 432.0000000000026
+    },
+    {
+      "id": "Component192",
+      "name": "R yaw base",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "192.brep",
+      "volume": 121690.24771870203
+    },
+    {
+      "id": "Component193",
+      "name": "R yaw thrust washer",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "193.brep",
+      "volume": 1889.982140399628
+    },
+    {
+      "id": "Component194",
+      "name": "R yaw deck",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "194.brep",
+      "volume": 54861.330140165395
+    },
+    {
+      "id": "Component195",
+      "name": "R J1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "195.brep",
+      "volume": 36476.547634325856
+    },
+    {
+      "id": "Component196",
+      "name": "R J1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "196.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component197",
+      "name": "R J1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "197.brep",
+      "volume": 778.957898457589
+    },
+    {
+      "id": "Component198",
+      "name": "R J1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "198.brep",
+      "volume": 712.5164636502614
+    },
+    {
+      "id": "Component199",
+      "name": "R J1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "199.brep",
+      "volume": 712.5164636502612
+    },
+    {
+      "id": "Component200",
+      "name": "R shoulder yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "200.brep",
+      "volume": 57740.74272481439
+    },
+    {
+      "id": "Component201",
+      "name": "R J2 -1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "201.brep",
+      "volume": 36476.547634325856
+    },
+    {
+      "id": "Component202",
+      "name": "R J2 -1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "202.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component203",
+      "name": "R J2 -1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "203.brep",
+      "volume": 778.9578984575878
+    },
+    {
+      "id": "Component204",
+      "name": "R J2 -1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "204.brep",
+      "volume": 712.5164636502616
+    },
+    {
+      "id": "Component205",
+      "name": "R J2 -1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "205.brep",
+      "volume": 712.5164636502614
+    },
+    {
+      "id": "Component206",
+      "name": "R J2 1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "206.brep",
+      "volume": 36476.547634325856
+    },
+    {
+      "id": "Component207",
+      "name": "R J2 1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "207.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component208",
+      "name": "R J2 1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "208.brep",
+      "volume": 778.9578984575876
+    },
+    {
+      "id": "Component209",
+      "name": "R J2 1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "209.brep",
+      "volume": 712.5164636502616
+    },
+    {
+      "id": "Component210",
+      "name": "R J2 1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "210.brep",
+      "volume": 712.5164636502612
+    },
+    {
+      "id": "Component211",
+      "name": "R upper hub",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "211.brep",
+      "volume": 40976.13173326366
+    },
+    {
+      "id": "Component212",
+      "name": "R upper hollow tube",
+      "group": "tube",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "212.brep",
+      "volume": 25894.14824629431
+    },
+    {
+      "id": "Component213",
+      "name": "R elbow yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "213.brep",
+      "volume": 36005.84825913791
+    },
+    {
+      "id": "Component214",
+      "name": "R J3 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "214.brep",
+      "volume": 36476.54763432584
+    },
+    {
+      "id": "Component215",
+      "name": "R J3 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "215.brep",
+      "volume": 123.1504320207182
+    },
+    {
+      "id": "Component216",
+      "name": "R J3 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "216.brep",
+      "volume": 778.9578984575917
+    },
+    {
+      "id": "Component217",
+      "name": "R J3 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "217.brep",
+      "volume": 712.5164636502561
+    },
+    {
+      "id": "Component218",
+      "name": "R J3 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "218.brep",
+      "volume": 712.516463650263
+    },
+    {
+      "id": "Component219",
+      "name": "R fore hub",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "219.brep",
+      "volume": 42794.29243919471
+    },
+    {
+      "id": "Component220",
+      "name": "R J3 sleeve",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "220.brep",
+      "volume": 82.51393104653553
+    },
+    {
+      "id": "Component221",
+      "name": "R J3 thrust washer 0",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "221.brep",
+      "volume": 37.09592605358856
+    },
+    {
+      "id": "Component222",
+      "name": "R J3 thrust washer 1",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "222.brep",
+      "volume": 37.09592605358857
+    },
+    {
+      "id": "Component223",
+      "name": "R J3 M4x12 axle bolt",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "223.brep",
+      "volume": 258.5530753904407
+    },
+    {
+      "id": "Component224",
+      "name": "R J3 M4 captive nut",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "224.brep",
+      "volume": 91.36107868445926
+    },
+    {
+      "id": "Component225",
+      "name": "R fore hollow tube",
+      "group": "tube",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "225.brep",
+      "volume": 17680.148246294564
+    },
+    {
+      "id": "Component226",
+      "name": "R wrist yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "226.brep",
+      "volume": 29942.419425728694
+    },
+    {
+      "id": "Component227",
+      "name": "R W1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "227.brep",
+      "volume": 8725.096029103697
+    },
+    {
+      "id": "Component228",
+      "name": "R W1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "228.brep",
+      "volume": 62.831853071796004
+    },
+    {
+      "id": "Component229",
+      "name": "R W1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "229.brep",
+      "volume": 503.75438200312266
+    },
+    {
+      "id": "Component230",
+      "name": "R W1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "230.brep",
+      "volume": 555.0164636502633
+    },
+    {
+      "id": "Component231",
+      "name": "R W1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "231.brep",
+      "volume": 555.0164636502614
+    },
+    {
+      "id": "Component232",
+      "name": "R wrist palm fixed jaw",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "232.brep",
+      "volume": 38159.464197823945
+    },
+    {
+      "id": "Component233",
+      "name": "R wrist drive plate",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "233.brep",
+      "volume": 3847.9483458229147
+    },
+    {
+      "id": "Component234",
+      "name": "R wrist M3x30 joining bolt -14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "234.brep",
+      "volume": 285.9477633297424
+    },
+    {
+      "id": "Component235",
+      "name": "R wrist M3 washer (-14, -8.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "235.brep",
+      "volume": 15.221016406642464
+    },
+    {
+      "id": "Component236",
+      "name": "R wrist M3 washer (-14, 12.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "236.brep",
+      "volume": 15.221016406642464
+    },
+    {
+      "id": "Component237",
+      "name": "R wrist M3 locking nut -14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "237.brep",
+      "volume": 72.59101925953358
+    },
+    {
+      "id": "Component238",
+      "name": "R wrist M3x30 joining bolt 14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "238.brep",
+      "volume": 285.9477633297424
+    },
+    {
+      "id": "Component239",
+      "name": "R wrist M3 washer (14, -8.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "239.brep",
+      "volume": 15.221016406642464
+    },
+    {
+      "id": "Component240",
+      "name": "R wrist M3 washer (14, 12.25)",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "240.brep",
+      "volume": 15.221016406642464
+    },
+    {
+      "id": "Component241",
+      "name": "R wrist M3 locking nut 14",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "241.brep",
+      "volume": 72.59101925953358
+    },
+    {
+      "id": "Component242",
+      "name": "R W1 sleeve",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "242.brep",
+      "volume": 82.51393104653705
+    },
+    {
+      "id": "Component243",
+      "name": "R W1 thrust washer 0",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "243.brep",
+      "volume": 37.09592605358827
+    },
+    {
+      "id": "Component244",
+      "name": "R W1 thrust washer 1",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "244.brep",
+      "volume": 37.09592605358827
+    },
+    {
+      "id": "Component245",
+      "name": "R W1 M4x12 axle bolt",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "245.brep",
+      "volume": 258.5530753904395
+    },
+    {
+      "id": "Component246",
+      "name": "R W1 M4 captive nut",
+      "group": "hardware",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "246.brep",
+      "volume": 91.3610786844584
+    },
+    {
+      "id": "Component247",
+      "name": "R G1 case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.13
+      ],
+      "brep": "247.brep",
+      "volume": 8725.096029103686
+    },
+    {
+      "id": "Component248",
+      "name": "R G1 shaft",
+      "group": "shaft",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "brep": "248.brep",
+      "volume": 62.8318530717957
+    },
+    {
+      "id": "Component249",
+      "name": "R G1 supplied horn",
+      "group": "horn",
+      "color": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "brep": "249.brep",
+      "volume": 503.7543820031216
+    },
+    {
+      "id": "Component250",
+      "name": "R G1 clamp -1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "250.brep",
+      "volume": 555.0164636502593
+    },
+    {
+      "id": "Component251",
+      "name": "R G1 clamp 1",
+      "group": "printed",
+      "color": [
+        0.57,
+        0.19,
+        0.06
+      ],
+      "brep": "251.brep",
+      "volume": 555.0164636502593
+    },
+    {
+      "id": "Component252",
+      "name": "R moving jaw",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.4,
+        0.1
+      ],
+      "brep": "252.brep",
+      "volume": 4998.253622588665
+    },
+    {
+      "id": "Component253",
+      "name": "R fixed soft pad",
+      "group": "pad",
+      "color": [
+        0.18,
+        0.48,
+        0.3
+      ],
+      "brep": "253.brep",
+      "volume": 432.0
+    },
+    {
+      "id": "Component254",
+      "name": "R moving soft pad",
+      "group": "pad",
+      "color": [
+        0.18,
+        0.48,
+        0.3
+      ],
+      "brep": "254.brep",
+      "volume": 432.0000000000026
+    }
+  ],
+  "revision": "AERO-V3",
+  "mode": "rover_v3",
+  "parameters": {
+    "UpperLength": 300.0,
+    "ForeLength": 220.0,
+    "BasketSlope": 15.0,
+    "BasketRearHeight": 145.0,
+    "ArmBaseX": 380.0,
+    "ArmBaseY": 415.0,
+    "ArmBaseZ": 280.0
+  },
+  "status": "AERO V3 prototype; physical validation required"
+}

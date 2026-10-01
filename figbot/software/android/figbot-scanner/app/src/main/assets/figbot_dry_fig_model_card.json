@@ -1,0 +1,21 @@
+{
+  "status": "PHONE FIELD TEST ONLY — NOT INDEPENDENTLY VALIDATED",
+  "model": "YOLO11n collectable dry/hurda fig v0.6",
+  "input_size": 640,
+  "confidence_threshold": 0.35,
+  "nms_iou_threshold": 0.45,
+  "sha256": "9FDA5D668FAF40EE5BF5659F94ACB721D4E0DB1CDB341B7AAC1B7845505BFFBD",
+  "supplied_scene_fit_audit": {
+    "scenes": 18,
+    "labelled_dry_figs": 54,
+    "true_detections": 54,
+    "missed_labels": 0,
+    "extra_boxes": 0,
+    "new_and_corrected_hurda_figs": "14/14",
+    "new_grass_leaf_figs": "6/6",
+    "outdoor_figs": "20/20",
+    "earlier_figs": "14/14",
+    "warning": "All scenes were used for adaptation; this is not independent validation."
+  },
+  "required_next_test": "Record pre-training results on new unseen raw orchard phone video and fixed-FIGBOT-camera frames."
+}

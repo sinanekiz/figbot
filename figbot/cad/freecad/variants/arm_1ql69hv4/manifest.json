@@ -1,0 +1,628 @@
+{
+  "mode": "arm",
+  "parameters": {
+    "UpperLength": 310.0,
+    "ForeLength": 220.0,
+    "BasketSlope": 15.0,
+    "BasketRearHeight": 145.0,
+    "ArmBaseX": 380.0,
+    "ArmBaseY": 415.0,
+    "ArmBaseZ": 280.0
+  },
+  "status": "DEC-039 HOLD: assembly defects retained; NOT FOR PRINT / PHYSICAL VALIDATION REQUIRED",
+  "parts": [
+    {
+      "id": "Component000",
+      "name": "J1 rounded base",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_000.brep",
+      "volume": 90621.04010040381
+    },
+    {
+      "id": "Component001",
+      "name": "J1 yaw deck",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_001.brep",
+      "volume": 58153.3233050034
+    },
+    {
+      "id": "Component002",
+      "name": "open shoulder pedestal",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_002.brep",
+      "volume": 138745.04609969832
+    },
+    {
+      "id": "Component003",
+      "name": "dual-servo shoulder yoke",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_003.brep",
+      "volume": 91394.96074693938
+    },
+    {
+      "id": "Component004",
+      "name": "upper hub",
+      "group": "printed",
+      "color": [
+        0.63,
+        0.19,
+        0.06
+      ],
+      "brep": "part_004.brep",
+      "volume": 44336.18410813191
+    },
+    {
+      "id": "Component005",
+      "name": "310 mm upper span - cut length TBD",
+      "group": "aluminium",
+      "color": [
+        0.7,
+        0.74,
+        0.77
+      ],
+      "brep": "part_005.brep",
+      "volume": 124000.00000000003
+    },
+    {
+      "id": "Component006",
+      "name": "upper hollow fairing 1",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_006.brep",
+      "volume": 12278.185094487497
+    },
+    {
+      "id": "Component007",
+      "name": "upper hollow fairing 2",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_007.brep",
+      "volume": 12278.185094487504
+    },
+    {
+      "id": "Component008",
+      "name": "upper hollow fairing 3",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_008.brep",
+      "volume": 12278.18509448745
+    },
+    {
+      "id": "Component009",
+      "name": "adjustable counterbalance tube anchor",
+      "group": "printed",
+      "color": [
+        0.63,
+        0.19,
+        0.06
+      ],
+      "brep": "part_009.brep",
+      "volume": 18879.33675633369
+    },
+    {
+      "id": "Component010",
+      "name": "elbow yoke",
+      "group": "printed",
+      "color": [
+        0.63,
+        0.19,
+        0.06
+      ],
+      "brep": "part_010.brep",
+      "volume": 69687.15542662055
+    },
+    {
+      "id": "Component011",
+      "name": "forearm hub",
+      "group": "printed",
+      "color": [
+        0.63,
+        0.19,
+        0.06
+      ],
+      "brep": "part_011.brep",
+      "volume": 42147.61941749988
+    },
+    {
+      "id": "Component012",
+      "name": "220 mm fore span - cut length TBD",
+      "group": "aluminium",
+      "color": [
+        0.7,
+        0.74,
+        0.77
+      ],
+      "brep": "part_012.brep",
+      "volume": 88000.0
+    },
+    {
+      "id": "Component013",
+      "name": "forearm hollow fairing 1",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_013.brep",
+      "volume": 12923.481594317931
+    },
+    {
+      "id": "Component014",
+      "name": "forearm hollow fairing 2",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_014.brep",
+      "volume": 12923.481594317993
+    },
+    {
+      "id": "Component015",
+      "name": "wrist carrier",
+      "group": "printed",
+      "color": [
+        0.63,
+        0.19,
+        0.06
+      ],
+      "brep": "part_015.brep",
+      "volume": 47645.27666044182
+    },
+    {
+      "id": "Component016",
+      "name": "rounded gripper palm",
+      "group": "printed",
+      "color": [
+        0.93,
+        0.42,
+        0.1
+      ],
+      "brep": "part_016.brep",
+      "volume": 63029.056932759224
+    },
+    {
+      "id": "Component017",
+      "name": "left curved jaw",
+      "group": "printed",
+      "color": [
+        0.63,
+        0.19,
+        0.06
+      ],
+      "brep": "part_017.brep",
+      "volume": 13042.099133547017
+    },
+    {
+      "id": "Component018",
+      "name": "right curved jaw",
+      "group": "printed",
+      "color": [
+        0.63,
+        0.19,
+        0.06
+      ],
+      "brep": "part_018.brep",
+      "volume": 13042.099133547008
+    },
+    {
+      "id": "Component019",
+      "name": "soft pad L",
+      "group": "soft pad",
+      "color": [
+        0.2,
+        0.56,
+        0.39
+      ],
+      "brep": "part_019.brep",
+      "volume": 1201.8343182072454
+    },
+    {
+      "id": "Component020",
+      "name": "soft pad R",
+      "group": "soft pad",
+      "color": [
+        0.2,
+        0.56,
+        0.39
+      ],
+      "brep": "part_020.brep",
+      "volume": 1201.8343182072433
+    },
+    {
+      "id": "Component021",
+      "name": "J1 MG996R-case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.12
+      ],
+      "brep": "part_021.brep",
+      "volume": 35703.128614403315
+    },
+    {
+      "id": "Component022",
+      "name": "J1 MG996R-label",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.31,
+        0.65
+      ],
+      "brep": "part_022.brep",
+      "volume": 8732.181617935603
+    },
+    {
+      "id": "Component023",
+      "name": "J1 MG996R-shaft",
+      "group": "servo",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_023.brep",
+      "volume": 123.15043202071986
+    },
+    {
+      "id": "Component024",
+      "name": "J2L MG996R-case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.12
+      ],
+      "brep": "part_024.brep",
+      "volume": 35703.12861440333
+    },
+    {
+      "id": "Component025",
+      "name": "J2L MG996R-label",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.31,
+        0.65
+      ],
+      "brep": "part_025.brep",
+      "volume": 8732.181617935597
+    },
+    {
+      "id": "Component026",
+      "name": "J2L MG996R-shaft",
+      "group": "servo",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_026.brep",
+      "volume": 123.15043202071989
+    },
+    {
+      "id": "Component027",
+      "name": "J2R MG996R-case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.12
+      ],
+      "brep": "part_027.brep",
+      "volume": 35703.12861440333
+    },
+    {
+      "id": "Component028",
+      "name": "J2R MG996R-label",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.31,
+        0.65
+      ],
+      "brep": "part_028.brep",
+      "volume": 8732.181617935601
+    },
+    {
+      "id": "Component029",
+      "name": "J2R MG996R-shaft",
+      "group": "servo",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_029.brep",
+      "volume": 123.15043202071988
+    },
+    {
+      "id": "Component030",
+      "name": "J3 MG996R-case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.12
+      ],
+      "brep": "part_030.brep",
+      "volume": 35703.128614403344
+    },
+    {
+      "id": "Component031",
+      "name": "J3 MG996R-label",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.31,
+        0.65
+      ],
+      "brep": "part_031.brep",
+      "volume": 8732.181617935606
+    },
+    {
+      "id": "Component032",
+      "name": "J3 MG996R-shaft",
+      "group": "servo",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_032.brep",
+      "volume": 123.15043202072039
+    },
+    {
+      "id": "Component033",
+      "name": "G1 MG90S-case",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.1,
+        0.12
+      ],
+      "brep": "part_033.brep",
+      "volume": 8457.1255708186
+    },
+    {
+      "id": "Component034",
+      "name": "G1 MG90S-label",
+      "group": "servo",
+      "color": [
+        0.08,
+        0.31,
+        0.65
+      ],
+      "brep": "part_034.brep",
+      "volume": 2036.82423625092
+    },
+    {
+      "id": "Component035",
+      "name": "G1 MG90S-shaft",
+      "group": "servo",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_035.brep",
+      "volume": 62.83185307179592
+    },
+    {
+      "id": "Component036",
+      "name": "MG90S retaining saddle",
+      "group": "printed",
+      "color": [
+        0.63,
+        0.19,
+        0.06
+      ],
+      "brep": "part_036.brep",
+      "volume": 2144.67187301797
+    },
+    {
+      "id": "Component037",
+      "name": "MG90S saddle screw front",
+      "group": "fastener",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_037.brep",
+      "volume": 99.07797831258752
+    },
+    {
+      "id": "Component038",
+      "name": "MG90S saddle screw rear",
+      "group": "fastener",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_038.brep",
+      "volume": 99.07797831258752
+    },
+    {
+      "id": "Component039",
+      "name": "J2 horn",
+      "group": "drive",
+      "color": [
+        0.92,
+        0.73,
+        0.12
+      ],
+      "brep": "part_039.brep",
+      "volume": 3820.155938860723
+    },
+    {
+      "id": "Component040",
+      "name": "J3 horn",
+      "group": "drive",
+      "color": [
+        0.92,
+        0.73,
+        0.12
+      ],
+      "brep": "part_040.brep",
+      "volume": 3820.1559388607247
+    },
+    {
+      "id": "Component041",
+      "name": "gripper servo horn",
+      "group": "drive",
+      "color": [
+        0.92,
+        0.73,
+        0.12
+      ],
+      "brep": "part_041.brep",
+      "volume": 1277.3924225240862
+    },
+    {
+      "id": "Component042",
+      "name": "gripper linkage L",
+      "group": "drive",
+      "color": [
+        0.92,
+        0.73,
+        0.12
+      ],
+      "brep": "part_042.brep",
+      "volume": 516.8497055933276
+    },
+    {
+      "id": "Component043",
+      "name": "jaw drive pin L",
+      "group": "fastener",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_043.brep",
+      "volume": 113.09733552923291
+    },
+    {
+      "id": "Component044",
+      "name": "gripper linkage R",
+      "group": "drive",
+      "color": [
+        0.92,
+        0.73,
+        0.12
+      ],
+      "brep": "part_044.brep",
+      "volume": 516.8497055933242
+    },
+    {
+      "id": "Component045",
+      "name": "jaw drive pin R",
+      "group": "fastener",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_045.brep",
+      "volume": 113.09733552923274
+    },
+    {
+      "id": "Component046",
+      "name": "jaw pivot pin L",
+      "group": "fastener",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_046.brep",
+      "volume": 127.23450247038704
+    },
+    {
+      "id": "Component047",
+      "name": "jaw pivot pin R",
+      "group": "fastener",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_047.brep",
+      "volume": 127.23450247038686
+    },
+    {
+      "id": "Component048",
+      "name": "wrist-to-palm lower pin",
+      "group": "fastener",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_048.brep",
+      "volume": 854.5132017764213
+    },
+    {
+      "id": "Component049",
+      "name": "wrist-to-palm upper pin",
+      "group": "fastener",
+      "color": [
+        0.28,
+        0.31,
+        0.34
+      ],
+      "brep": "part_049.brep",
+      "volume": 854.5132017764247
+    },
+    {
+      "id": "Component050",
+      "name": "elastic counterbalance reference",
+      "group": "counterbalance",
+      "color": [
+        0.2,
+        0.56,
+        0.39
+      ],
+      "brep": "part_050.brep",
+      "volume": 1479.347688190884
+    }
+  ],
+  "scope": "Geometry regeneration only; no automatic collision, strength, kinematics or print approval. Fixed pickup joint pose. Imported/custom generated features, not sketch history."
+}

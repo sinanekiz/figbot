@@ -1,0 +1,12 @@
+# Generated toolchains, build products, virtual environments and scratch output.
+# Keep implementation sources, historical CAD dependencies and GUNCEL visible.
+/.codex_artifacts/
+/.tmp*/
+/.venv-camera/
+/firmware/pico2_motion/build*/
+
+# These contain FIGBOT implementation/documentation, despite fast-mode defaults.
+!/scripts/
+!/tools/
+!/docs/
+/tools/prusaslicer_portable/

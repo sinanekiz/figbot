@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "class_name": "dry_fig",
+  "status": "REVIEWED PHONE FIELD EXAMPLES — FIGBOT CAMERA UNVERIFIED",
+  "annotation_method": "Grounding DINO teacher proposals reviewed against user-provided phone screenshots",
+  "images": [
+    {
+      "id": "field_carpet_many",
+      "source": "source/field_carpet_many.jpg",
+      "split": "train",
+      "repeat": 30,
+      "boxes": [
+        [706, 405, 823, 498],
+        [353, 453, 429, 537],
+        [17, 637, 117, 734],
+        [389, 814, 542, 896],
+        [687, 814, 825, 890]
+      ]
+    },
+    {
+      "id": "field_bag_many",
+      "source": "source/field_bag_many.jpg",
+      "split": "train",
+      "repeat": 30,
+      "boxes": [
+        [457, 531, 633, 624],
+        [284, 587, 439, 723],
+        [195, 600, 286, 725],
+        [506, 628, 714, 752],
+        [397, 696, 527, 840],
+        [335, 796, 484, 929]
+      ]
+    },
+    {
+      "id": "field_close_whole",
+      "source": "source/field_close_whole.jpg",
+      "split": "train",
+      "repeat": 30,
+      "boxes": [[24, 25, 619, 488]]
+    },
+    {
+      "id": "field_sofa_negative",
+      "source": "source/field_sofa_negative.jpg",
+      "split": "train",
+      "repeat": 30,
+      "boxes": []
+    },
+    {
+      "id": "field_carpet_distractors",
+      "source": "source/field_carpet_many.jpg",
+      "split": "train",
+      "repeat": 30,
+      "crop": [620, 500, 940, 680],
+      "boxes": []
+    },
+    {
+      "id": "field_holdout",
+      "source": "source/field_holdout.jpg",
+      "split": "train",
+      "repeat": 30,
+      "boxes": [
+        [369, 351, 478, 464],
+        [128, 685, 285, 857]
+      ]
+    },
+    {
+      "id": "field_holdout_top_fig",
+      "source": "source/field_holdout.jpg",
+      "split": "train",
+      "repeat": 20,
+      "crop": [320, 300, 530, 520],
+      "boxes": [[369, 351, 478, 464]]
+    },
+    {
+      "id": "field_holdout_bottom_fig",
+      "source": "source/field_holdout.jpg",
+      "split": "train",
+      "repeat": 20,
+      "crop": [70, 620, 340, 920],
+      "boxes": [[128, 685, 285, 857]]
+    },
+    {
+      "id": "field_holdout_distractors",
+      "source": "source/field_holdout.jpg",
+      "split": "train",
+      "repeat": 30,
+      "crop": [400, 480, 850, 720],
+      "boxes": []
+    }
+  ]
+}

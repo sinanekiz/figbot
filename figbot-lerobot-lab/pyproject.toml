@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=71"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "figbot-lerobot-lab"
+version = "0.1.0"
+description = "Isolated pretrained robot policy experiments for FIGBOT"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "pyserial==3.5",
+  "lerobot[smolvla,training]==0.6.1",
+  "torch==2.10.0",
+  "torchvision==0.25.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+figbot-lab = "figbot_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

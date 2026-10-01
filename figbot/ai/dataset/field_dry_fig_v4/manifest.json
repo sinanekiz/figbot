@@ -1,0 +1,112 @@
+{
+  "version": 4,
+  "class_name": "dry_fig",
+  "status": "REVIEWED HURDA-FIG FAILURE EXAMPLES — FIGBOT CAMERA UNVERIFIED",
+  "annotation_method": "User clarification that bruised/purple scrap-grade figs are collectable; boxes manually reviewed and screenshot UI/overlays excluded by crops",
+  "images": [
+    {
+      "id": "missed_yellow_hurda_full",
+      "source": "source/missed_yellow_hurda.png",
+      "split": "train",
+      "repeat": 40,
+      "crop": [0, 356, 940, 1733],
+      "boxes": [[480,920,615,1065],[277,1210,405,1347]]
+    },
+    {
+      "id": "missed_yellow_hurda_context",
+      "source": "source/missed_yellow_hurda.png",
+      "split": "train",
+      "repeat": 25,
+      "crop": [200, 800, 700, 1450],
+      "boxes": [[480,920,615,1065],[277,1210,405,1347]]
+    },
+    {
+      "id": "purple_hurda_left_pair",
+      "source": "source/many_purple_hurda.png",
+      "split": "train",
+      "repeat": 25,
+      "crop": [0, 520, 200, 820],
+      "boxes": [[42,584,108,648],[82,732,166,806]]
+    },
+    {
+      "id": "purple_hurda_upper_group",
+      "source": "source/many_purple_hurda.png",
+      "split": "train",
+      "repeat": 30,
+      "crop": [200, 520, 760, 920],
+      "boxes": [[355,578,438,671],[605,580,690,678],[255,681,335,776],[262,773,350,862],[466,830,545,910]]
+    },
+    {
+      "id": "purple_hurda_lower_group",
+      "source": "source/many_purple_hurda.png",
+      "split": "train",
+      "repeat": 30,
+      "crop": [240, 670, 760, 1120],
+      "boxes": [[255,681,335,776],[262,773,350,862],[466,830,545,910],[338,982,437,1082],[580,985,710,1082]]
+    },
+    {
+      "id": "prior_dark_hurda_pair",
+      "source": "source/prior_dark_hurda.png",
+      "split": "train",
+      "repeat": 25,
+      "crop": [180, 650, 760, 1000],
+      "boxes": [[215,682,358,812],[613,798,733,933]]
+    },
+    {
+      "id": "prior_dark_hurda_large",
+      "source": "source/prior_dark_hurda.png",
+      "split": "train",
+      "repeat": 25,
+      "crop": [420, 1160, 760, 1550],
+      "boxes": [[485,1232,690,1492]]
+    },
+    {
+      "id": "large_green_leaf_negative",
+      "source": "source/missed_yellow_hurda.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [20, 356, 300, 620],
+      "boxes": []
+    },
+    {
+      "id": "small_green_leaf_negative",
+      "source": "source/missed_yellow_hurda.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [590, 1000, 780, 1210],
+      "boxes": []
+    },
+    {
+      "id": "glove_negative",
+      "source": "source/leaf_false_glove.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [590, 700, 850, 1000],
+      "boxes": []
+    },
+    {
+      "id": "dry_leaf_upper_negative",
+      "source": "source/leaf_false_glove.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [330, 920, 590, 1080],
+      "boxes": []
+    },
+    {
+      "id": "dry_leaf_cluster_negative",
+      "source": "source/leaf_false_glove.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [380, 1180, 720, 1550],
+      "boxes": []
+    },
+    {
+      "id": "whole_green_leaf_negative",
+      "source": "source/many_purple_hurda.png",
+      "split": "train",
+      "repeat": 20,
+      "crop": [640, 400, 910, 570],
+      "boxes": []
+    }
+  ]
+}

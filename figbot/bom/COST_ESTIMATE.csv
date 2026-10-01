@@ -1,0 +1,11 @@
+category,preferred_baseline_cost,low_estimate,high_estimate,currency,status,included,excluded
+Arm drives and mechanics,571.46,500,900,USD,ESTIMATE,"Motor kits bearings belts pulleys and metal stock","Fabrication labor machining tooling shipping tax"
+Gripper,102.49,80,250,USD,ESTIMATE,"Smart servo and silicone trials","Load cell option mold labor food-contact certification"
+Vision and AI,35.00,35,500,USD,ESTIMATE,"Reused host and RGB camera","Embedded computer depth camera storage display"
+Control,45.00,35,150,USD,ESTIMATE,"MCU and limit switches","Custom isolated I/O board development"
+Electrical power and safety,730.86,550,1300,USD,ESTIMATE,"PSU DC/DC E-stop relay estimated contactors distribution enclosure wiring","Engineering certification facility mains work battery"
+Fasteners,45.00,30,100,USD,ESTIMATE,"Mixed M3/M4/M5/M6 set","Torque tools specialty retention hardware"
+Funnel materials,30.00,25,120,USD,ESTIMATE,"Soft liner trial","Food-contact certification and production tooling"
+3D printing consumables,90.00,60,250,USD,ESTIMATE,"Prototype filament resin TPU allowance","Printer depreciation failed prints post-processing labor"
+Test stand base stock,60.00,40,150,USD,ESTIMATE,"Fixture board allowance","Bench anchoring labor guards"
+V0 TOTAL,1709.81,1355,3720,USD,CALCULATED_FROM_ESTIMATE_INPUTS,"Sum of categories using researched preferred candidates and allowances","VAT duty freight exchange-rate changes labor tools certification battery V2 traction"

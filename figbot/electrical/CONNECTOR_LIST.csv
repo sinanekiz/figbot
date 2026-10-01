@@ -1,0 +1,11 @@
+connector_id,service,preferred_family,poles,current_requirement_A,environment,status,notes
+CON-001,24V driver branches,Phoenix Contact PT 2.5 family DIN terminals,2,10,Enclosure,CONTROLLED_FAMILY,"Use matching fuse terminals/end plates/jumpers; final MPN count follows schematic"
+CON-002,Motor phases,StepperOnline delivered locking extension or reviewed GX16 kit cable,4,5,Moving mechanism,CONTROLLED_VENDOR,"Pinout continuity and contact heating test on every delivered cable"
+CON-003,J1/J3/J4 differential encoders,StepperOnline delivered 8-conductor extension,8,0.2,Moving mechanism,CONTROLLED_VENDOR,"Preserve A/B/Z pair twist and shield continuity"
+CON-004,J2 differential encoder,StepperOnline delivered 6-conductor extension,6,0.2,Moving mechanism,CONTROLLED_VENDOR,"Preserve A/B pair twist and shield continuity"
+CON-005,Home switches,Omron XS2F-D421-C80-F M12 cable,4,1,Dust/splash exposed,CONTROLLED_SELECTION,"Mates D4CC-3024; wire NC loop through isolated input"
+CON-006,E-stop channels,G9SE removable finger-safe terminals,4,0.1,Fixed panel,CONTROLLED_SELECTION,"Ferrules per manufacturer; complete safety function requires human review"
+CON-007,5V compute power,Locking two-pole terminal adapter rated >=8 A,2,6.3,Enclosure,HUMAN_ELECTRICAL_REVIEW_REQUIRED,"Do not feed Pi GPIO until polarity/fusing/brownout behavior is reviewed"
+CON-008,Camera,Raspberry Pi Standard-Mini Camera Cable 200 mm,22_to_15,0.5,Fixed mast,CONTROLLED_SELECTION,"Pi 5 mini 22-pin to camera 15-pin"
+CON-009,Gripper servo,JST EHR-03 housing + SEH-001T-P0.6 contacts,3,2,Moving wrist,CONTROLLED_SELECTION,"21 AWG maximum per ROBOTIS drawing; provide service loop and strain relief"
+CON-010,Field cable glands,IEC 62444 IP68 polyamide M16/M20,NA,NA,Enclosure wall,CONTROLLED_STANDARD,"Select insert range from measured cable OD"

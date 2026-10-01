@@ -1,0 +1,10 @@
+fuse_id,circuit,nominal_voltage_V,provisional_rating_A,fuse_type,status,selection_basis,review_required
+F0,AC input,230,TBD,"gG fuse or 2-pole breaker coordinated with PSU",UNVERIFIED,"LRS-450-24 input current/inrush and local code",LICENSED_OR_HUMAN_ELECTRICAL_REVIEW_REQUIRED
+F1,J1 driver branch,24,5,"DC-rated time-delay fuse in DIN terminal",PROVISIONAL_CONTROLLED,"1.0 mm2 branch; confirm measured driver input and manual",HUMAN_ELECTRICAL_REVIEW_REQUIRED
+F2,J2 driver branch,24,8,"DC-rated time-delay fuse in DIN terminal",PROVISIONAL_CONTROLLED,"1.5 mm2 branch; confirm measured CL57T input",HUMAN_ELECTRICAL_REVIEW_REQUIRED
+F3,J3 driver branch,24,5,"DC-rated time-delay fuse in DIN terminal",PROVISIONAL_CONTROLLED,"1.0 mm2 branch; confirm measured driver input",HUMAN_ELECTRICAL_REVIEW_REQUIRED
+F4,J4 driver branch,24,5,"DC-rated time-delay fuse in DIN terminal",PROVISIONAL_CONTROLLED,"1.0 mm2 branch; confirm measured driver input",HUMAN_ELECTRICAL_REVIEW_REQUIRED
+F5,DDR-15G-5 gripper converter input,24,1,"DC-rated time-delay fuse",PROVISIONAL_CONTROLLED,"15 W converter plus startup margin",HUMAN_ELECTRICAL_REVIEW_REQUIRED
+F6,DDR-60G-5 compute converter input,24,4,"DC-rated time-delay fuse",PROVISIONAL_CONTROLLED,"54 W output plus losses and inrush",HUMAN_ELECTRICAL_REVIEW_REQUIRED
+F7,Pi 5 5V output branch,5,6.3,"DC-rated fast fuse",PROVISIONAL_CONTROLLED,"Protect 1.5 mm2 cable and compute branch; startup/brownout test",HUMAN_ELECTRICAL_REVIEW_REQUIRED
+F8,Safety relay and contactor control,24,1,"DC-rated fuse",PROVISIONAL_CONTROLLED,"G9SE <=3 W plus exact contactor coils TBD",HUMAN_ELECTRICAL_REVIEW_REQUIRED

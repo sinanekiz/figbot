@@ -1,0 +1,2 @@
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/_deps/picotool-build/enc_bootloader/CMakeFiles/edit_cache.dir
+C:/Users/Sinan/Documents/ChatGPT/figbot/firmware/pico2_motion/build-pico2-sdk230/_deps/picotool-build/enc_bootloader/CMakeFiles/rebuild_cache.dir

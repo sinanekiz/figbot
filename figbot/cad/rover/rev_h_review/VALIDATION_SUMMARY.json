@@ -1,0 +1,9 @@
+{
+  "automated_tests_passed": 22,
+  "arm_motion_samples": 18,
+  "front_tire_angle_samples": 10,
+  "connected_interfaces": 55,
+  "status": "DEC-039 FULL ARM/GRIPPER PRINT HOLD - INTERNAL ASSEMBLY DEFECTS",
+  "test_scope": "19 legacy geometry tests + 3 audit utility tests; these do not prove assembly readiness.",
+  "internal_assembly_audit": "cad/prototype_arm/aero_v2/FINAL_PRINT_AUDIT.json"
+}

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="FIGBOT_FIXED_INSPECTION_NOT_KINEMATIC"><link name="scene"><visual><geometry><mesh filename="scene.stl" scale="0.001 0.001 0.001" /></geometry></visual></link></robot>

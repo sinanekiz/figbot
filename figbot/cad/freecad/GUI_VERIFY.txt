@@ -1,0 +1,1 @@
+PASS: native documents saved with colors and rendered by FreeCAD

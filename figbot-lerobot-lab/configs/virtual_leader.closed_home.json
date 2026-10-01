@@ -1,0 +1,31 @@
+{
+  "status": "PROVISIONAL_CLOSED_HOME",
+  "positions": {
+    "1": 1966,
+    "2": 859,
+    "3": 3952,
+    "4": 2745,
+    "5": 1253,
+    "6": 743
+  },
+  "closed_angles": [
+    0.030138,
+    -1.745329,
+    1.565,
+    1.331938,
+    1.561153,
+    -0.144532
+  ],
+  "homing_offsets": {
+    "1": 4080,
+    "2": 2861,
+    "3": 85,
+    "4": 85,
+    "5": 85,
+    "6": 85
+  },
+  "evidence": "runs\\20260930T102331_149186Z_virtual_leader_camera_alignment\\reference.json",
+  "evidence_sha256": "5b5f1c714332ae08873c72542764038801ad3bac3dd24a4660c2cda86b52954d",
+  "camera_reference": "runs/20260930T102331_372686Z_phone_camera/latest.jpg",
+  "note": "Recorded folded arm pose with closed gripper. Independent raw home, approximate visual model correspondence; not verified absolute calibration, directions, mechanical bounds or collision clearance."
+}

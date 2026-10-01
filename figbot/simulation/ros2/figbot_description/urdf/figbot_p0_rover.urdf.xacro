@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="figbot_p0_rover">
+  <!-- Rev-G packaging proxy. Basket dimensions remain from DEC-028; arm placement is DEC-031. -->
+  <xacro:property name="wheel_radius" value="0.127"/>
+  <xacro:property name="wheel_width" value="0.060"/>
+  <xacro:property name="wheelbase" value="0.510"/>
+  <xacro:property name="front_axle_x" value="0.290"/>
+  <xacro:property name="rear_axle_x" value="-0.220"/>
+  <xacro:property name="track" value="0.830"/>
+  <xacro:property name="basket_slope" value="-0.139626"/>
+
+  <material name="frame"><color rgba="0.30 0.34 0.31 1"/></material>
+  <material name="wheel"><color rgba="0.05 0.06 0.05 1"/></material>
+  <material name="arm"><color rgba="0.85 0.57 0.21 1"/></material>
+  <material name="basket"><color rgba="0.60 0.33 0.25 1"/></material>
+
+  <link name="base_link">
+    <visual><origin xyz="0 0 0.090"/><geometry><box size="0.650 0.600 0.042"/></geometry><material name="frame"/></visual>
+    <collision><origin xyz="0 0 0.090"/><geometry><box size="0.650 0.600 0.042"/></geometry></collision>
+    <inertial><origin xyz="-0.05 0 0.10"/><mass value="35"/><inertia ixx="0.65" ixy="0" ixz="0" iyy="1.10" iyz="0" izz="1.55"/></inertial>
+  </link>
+
+  <xacro:macro name="rear_wheel" params="side y">
+    <link name="rear_${side}_wheel">
+      <visual><geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry><material name="wheel"/></visual>
+      <collision><geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry></collision>
+      <inertial><mass value="2.0"/><inertia ixx="0.017" ixy="0" ixz="0" iyy="0.017" iyz="0" izz="0.004"/></inertial>
+    </link>
+    <joint name="rear_${side}_wheel_joint" type="continuous">
+      <parent link="base_link"/><child link="rear_${side}_wheel"/>
+      <origin xyz="${rear_axle_x} ${y} ${wheel_radius}" rpy="${pi/2} 0 0"/><axis xyz="0 0 1"/>
+      <dynamics damping="0.1" friction="0.05"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:macro name="front_wheel" params="side y">
+    <link name="front_${side}_knuckle"><inertial><mass value="0.8"/><inertia ixx="0.003" ixy="0" ixz="0" iyy="0.003" iyz="0" izz="0.003"/></inertial></link>
+    <joint name="front_${side}_steering_joint" type="revolute">
+      <parent link="base_link"/><child link="front_${side}_knuckle"/>
+      <origin xyz="${front_axle_x} ${y} ${wheel_radius}"/><axis xyz="0 0 1"/>
+      <limit lower="-0.523599" upper="0.523599" effort="1000" velocity="0.7"/>
+    </joint>
+    <link name="front_${side}_wheel">
+      <visual><origin rpy="${pi/2} 0 0"/><geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry><material name="wheel"/></visual>
+      <collision><origin rpy="${pi/2} 0 0"/><geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry></collision>
+      <inertial><mass value="2.0"/><inertia ixx="0.017" ixy="0" ixz="0" iyy="0.017" iyz="0" izz="0.004"/></inertial>
+    </link>
+    <joint name="front_${side}_wheel_joint" type="continuous">
+      <parent link="front_${side}_knuckle"/><child link="front_${side}_wheel"/><axis xyz="0 1 0"/>
+      <dynamics damping="0.1" friction="0.05"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:rear_wheel side="left" y="${track/2}"/>
+  <xacro:rear_wheel side="right" y="${-track/2}"/>
+  <xacro:front_wheel side="left" y="${track/2}"/>
+  <xacro:front_wheel side="right" y="${-track/2}"/>
+
+  <!-- Wall envelope plus explicit front-high/rear-low floor proxy. -->
+  <link name="basket_link">
+    <visual><origin xyz="-0.1965 0 0.090"/><geometry><box size="0.007 0.350 0.180"/></geometry><material name="basket"/></visual>
+    <visual><origin xyz="0.1965 0 0.1181"/><geometry><box size="0.007 0.350 0.1238"/></geometry><material name="basket"/></visual>
+    <visual><origin xyz="0 0.1715 0.168"/><geometry><box size="0.400 0.007 0.012"/></geometry><material name="basket"/></visual>
+    <visual><origin xyz="0 -0.1715 0.168"/><geometry><box size="0.400 0.007 0.012"/></geometry><material name="basket"/></visual>
+  </link>
+  <joint name="basket_joint" type="fixed"><parent link="base_link"/><child link="basket_link"/><origin xyz="0.100 0 0.232"/></joint>
+  <link name="basket_sloped_floor_link">
+    <visual><geometry><box size="0.400 0.350 0.007"/></geometry><material name="basket"/></visual>
+    <collision><geometry><box size="0.400 0.350 0.007"/></geometry></collision>
+  </link>
+  <joint name="basket_sloped_floor_joint" type="fixed">
+    <parent link="base_link"/><child link="basket_sloped_floor_link"/>
+    <origin xyz="0.100 0 0.2636" rpy="0 ${basket_slope} 0"/>
+  </joint>
+
+  <xacro:macro name="arm_proxy" params="side y">
+    <link name="${side}_arm_proxy_link"><visual><origin xyz="0 0 0.090"/><geometry><cylinder radius="0.045" length="0.180"/></geometry><material name="arm"/></visual></link>
+    <joint name="${side}_arm_proxy_joint" type="fixed"><parent link="base_link"/><child link="${side}_arm_proxy_link"/><origin xyz="0.120 ${y} 0.117"/></joint>
+  </xacro:macro>
+  <xacro:arm_proxy side="left" y="0.250"/>
+  <xacro:arm_proxy side="right" y="-0.250"/>
+  <link name="camera_link"><visual><geometry><box size="0.035 0.028 0.022"/></geometry></visual></link>
+  <joint name="camera_joint" type="fixed"><parent link="base_link"/><child link="camera_link"/><origin xyz="0.330 0 0.625" rpy="0 0.7 0"/></joint>
+
+  <ros2_control name="P0MockSystem" type="system">
+    <hardware><plugin>mock_components/GenericSystem</plugin></hardware>
+    <joint name="front_left_steering_joint"><command_interface name="position"/><state_interface name="position"/></joint>
+    <joint name="front_right_steering_joint"><command_interface name="position"/><state_interface name="position"/></joint>
+    <joint name="rear_left_wheel_joint"><command_interface name="velocity"/><state_interface name="velocity"/></joint>
+    <joint name="rear_right_wheel_joint"><command_interface name="velocity"/><state_interface name="velocity"/></joint>
+  </ros2_control>
+</robot>

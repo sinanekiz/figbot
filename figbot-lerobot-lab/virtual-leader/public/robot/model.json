@@ -1,0 +1,452 @@
+{
+  "name": "base",
+  "position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "quaternion": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "visuals": [
+    {
+      "mesh": "base_motor_holder_so101_v1.stl",
+      "position": [
+        -0.00636471,
+        -9.94414e-05,
+        -0.0024
+      ],
+      "quaternion": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "motor": false
+    },
+    {
+      "mesh": "base_so101_v2.stl",
+      "position": [
+        -0.00636471,
+        -8.97657e-09,
+        -0.0024
+      ],
+      "quaternion": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "motor": false
+    },
+    {
+      "mesh": "sts3215_03a_v1.stl",
+      "position": [
+        0.0263353,
+        -8.97657e-09,
+        0.0437
+      ],
+      "quaternion": [
+        1.0,
+        -2.85511e-16,
+        -9.64433e-17,
+        6.12908e-16
+      ],
+      "motor": true
+    },
+    {
+      "mesh": "waveshare_mounting_plate_so101_v2.stl",
+      "position": [
+        -0.0309827,
+        -0.000199441,
+        0.0474
+      ],
+      "quaternion": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "motor": false
+    }
+  ],
+  "children": [
+    {
+      "name": "shoulder",
+      "position": [
+        0.0388353,
+        -8.97657e-09,
+        0.0624
+      ],
+      "quaternion": [
+        3.56167e-16,
+        1.22818e-15,
+        -1.0,
+        -4.14635e-16
+      ],
+      "visuals": [
+        {
+          "mesh": "sts3215_03a_v1.stl",
+          "position": [
+            -0.0303992,
+            0.000422241,
+            -0.0417
+          ],
+          "quaternion": [
+            0.5,
+            0.5,
+            0.5,
+            -0.5
+          ],
+          "motor": true
+        },
+        {
+          "mesh": "motor_holder_so101_base_v1.stl",
+          "position": [
+            -0.0675992,
+            -0.000177759,
+            0.0158499
+          ],
+          "quaternion": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "motor": false
+        },
+        {
+          "mesh": "rotation_pitch_so101_v1.stl",
+          "position": [
+            0.0122008,
+            2.22413e-05,
+            0.0464
+          ],
+          "quaternion": [
+            0.707107,
+            -0.707107,
+            -0.0,
+            8.3163e-34
+          ],
+          "motor": false
+        }
+      ],
+      "children": [
+        {
+          "name": "upper_arm",
+          "position": [
+            -0.0303992,
+            -0.0182778,
+            -0.0542
+          ],
+          "quaternion": [
+            0.5,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "visuals": [
+            {
+              "mesh": "sts3215_03a_v1.stl",
+              "position": [
+                -0.11257,
+                -0.0155,
+                0.0187
+              ],
+              "quaternion": [
+                4.56308e-16,
+                -0.707107,
+                0.707107,
+                -1.37383e-16
+              ],
+              "motor": true
+            },
+            {
+              "mesh": "upper_arm_so101_v1.stl",
+              "position": [
+                -0.065085,
+                0.012,
+                0.0182
+              ],
+              "quaternion": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              "motor": false
+            }
+          ],
+          "children": [
+            {
+              "name": "lower_arm",
+              "position": [
+                -0.11257,
+                -0.028,
+                1.73763e-16
+              ],
+              "quaternion": [
+                0.707107,
+                -5.98613e-17,
+                -2.58051e-17,
+                0.707107
+              ],
+              "visuals": [
+                {
+                  "mesh": "under_arm_so101_v1.stl",
+                  "position": [
+                    -0.0648499,
+                    -0.032,
+                    0.0182
+                  ],
+                  "quaternion": [
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "motor": false
+                },
+                {
+                  "mesh": "motor_holder_so101_wrist_v1.stl",
+                  "position": [
+                    -0.0648499,
+                    -0.032,
+                    0.018
+                  ],
+                  "quaternion": [
+                    3.92687e-16,
+                    -1.0,
+                    -1.9186e-15,
+                    -6.38378e-16
+                  ],
+                  "motor": false
+                },
+                {
+                  "mesh": "sts3215_03a_v1.stl",
+                  "position": [
+                    -0.1224,
+                    0.0052,
+                    0.0187
+                  ],
+                  "quaternion": [
+                    7.21645e-16,
+                    1.56949e-15,
+                    1.0,
+                    -3.33067e-16
+                  ],
+                  "motor": true
+                }
+              ],
+              "children": [
+                {
+                  "name": "wrist",
+                  "position": [
+                    -0.1349,
+                    0.0052,
+                    3.62355e-17
+                  ],
+                  "quaternion": [
+                    0.707107,
+                    9.58722e-16,
+                    -7.51313e-16,
+                    -0.707107
+                  ],
+                  "visuals": [
+                    {
+                      "mesh": "sts3215_03a_no_horn_v1.stl",
+                      "position": [
+                        8.32667e-17,
+                        -0.0424,
+                        0.0306
+                      ],
+                      "quaternion": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        -0.5
+                      ],
+                      "motor": true
+                    },
+                    {
+                      "mesh": "wrist_roll_pitch_so101_v2.stl",
+                      "position": [
+                        0.0,
+                        -0.028,
+                        0.0181
+                      ],
+                      "quaternion": [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        -0.5
+                      ],
+                      "motor": false
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "gripper",
+                      "position": [
+                        5.55112e-17,
+                        -0.0611,
+                        0.0181
+                      ],
+                      "quaternion": [
+                        0.0172091,
+                        -0.0172091,
+                        0.706897,
+                        0.706897
+                      ],
+                      "visuals": [
+                        {
+                          "mesh": "sts3215_03a_v1.stl",
+                          "position": [
+                            0.0077,
+                            0.0001,
+                            -0.0234
+                          ],
+                          "quaternion": [
+                            0.707107,
+                            -0.707107,
+                            1.66015e-15,
+                            6.45094e-15
+                          ],
+                          "motor": true
+                        },
+                        {
+                          "mesh": "wrist_roll_follower_so101_v1.stl",
+                          "position": [
+                            8.32667e-17,
+                            -0.000218214,
+                            0.000949706
+                          ],
+                          "quaternion": [
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0
+                          ],
+                          "motor": false
+                        }
+                      ],
+                      "children": [
+                        {
+                          "name": "moving_jaw_so101_v1",
+                          "position": [
+                            0.0202,
+                            0.0188,
+                            -0.0234
+                          ],
+                          "quaternion": [
+                            0.707107,
+                            0.707107,
+                            -1.85362e-08,
+                            1.85362e-08
+                          ],
+                          "visuals": [
+                            {
+                              "mesh": "moving_jaw_so101_v1.stl",
+                              "position": [
+                                -5.55112e-17,
+                                -5.55112e-17,
+                                0.0189
+                              ],
+                              "quaternion": [
+                                1.0,
+                                -0.0,
+                                3.00524e-16,
+                                -2.00834e-17
+                              ],
+                              "motor": false
+                            }
+                          ],
+                          "children": [],
+                          "joint": {
+                            "name": "gripper",
+                            "axis": [
+                              0.0,
+                              0.0,
+                              1.0
+                            ],
+                            "range": [
+                              -0.17453297762778586,
+                              1.7453291995659765
+                            ]
+                          }
+                        }
+                      ],
+                      "joint": {
+                        "name": "wrist_roll",
+                        "axis": [
+                          0.0,
+                          0.0,
+                          1.0
+                        ],
+                        "range": [
+                          -2.7438472969992493,
+                          2.841206309382605
+                        ]
+                      }
+                    }
+                  ],
+                  "joint": {
+                    "name": "wrist_flex",
+                    "axis": [
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "range": [
+                      -1.6580628494556928,
+                      1.6580627293335335
+                    ]
+                  }
+                }
+              ],
+              "joint": {
+                "name": "elbow_flex",
+                "axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "range": [
+                  -1.69,
+                  1.69
+                ]
+              }
+            }
+          ],
+          "joint": {
+            "name": "shoulder_lift",
+            "axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "range": [
+              -1.7453292519943224,
+              1.7453292519943366
+            ]
+          }
+        }
+      ],
+      "joint": {
+        "name": "shoulder_pan",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "range": [
+          -1.9198621771937616,
+          1.9198621771937634
+        ]
+      }
+    }
+  ]
+}

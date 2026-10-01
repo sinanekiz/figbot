@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FIGBOT Kontrol</string>
+    <string name="status_starting">ARCore başlatılıyor…</string>
+    <string name="privacy_notice">Google Play Services for AR (ARCore), Google LLC tarafından sağlanır ve Google Gizlilik Politikası’na tabidir.</string>
+</resources>

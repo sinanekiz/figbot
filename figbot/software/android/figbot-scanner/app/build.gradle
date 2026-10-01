@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.figbot.scanner'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.figbot.scanner'
+        minSdk 24
+        targetSdk 36
+        versionCode 37
+        versionName '0.37.0-teaching-camera-only'
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    androidResources {
+        noCompress 'onnx'
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+}
+
+dependencies {
+    implementation 'org.opencv:opencv:4.12.0'
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    implementation 'androidx.core:core:1.17.0'
+    implementation 'com.github.mik3y:usb-serial-for-android:3.11.0'
+    implementation 'com.google.ar:core:1.54.0'
+    implementation 'com.microsoft.onnxruntime:onnxruntime-android:1.29.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}
